@@ -1,0 +1,3708 @@
+// I CAN DO IT HOLY SHITT 
+                       //gmail: modelcong@gmai.com
+                       //roblox studio:LUNAR_Zone1
+//be quiet boy
+ 
+//Name: Starlit Sky
+// Type: Graphic
+// Focus: Masking ( different masks)
+// Reference: Yes (not the sky tho)
+(function() {
+    return this;
+})().LoopProtector.prototype.leave = function() {};
+//}
+
+//logo
+background(255, 0);
+fill(255);
+noStroke();
+beginShape();
+vertex(153, 178);
+bezierVertex(153, 178, 158, 169, 161, 168);
+bezierVertex(161, 168, 166, 167, 168, 172);
+bezierVertex(168, 172, 170, 177, 163, 182);
+bezierVertex(163, 182, 157, 182, 155, 181);
+bezierVertex(155, 181, 154, 179, 153, 179);
+vertex(153, 185);
+bezierVertex(153, 185, 155, 189, 161, 188);
+bezierVertex(161, 188, 168, 186, 172, 178);
+bezierVertex(172, 178, 175, 166, 168, 163);
+bezierVertex(168, 163, 162, 160, 155, 169);
+bezierVertex(155, 169, 153, 170, 155, 161);
+bezierVertex(155, 161, 156, 148, 152, 145);
+bezierVertex(152, 145, 150, 144, 147, 147);
+bezierVertex(147, 147, 147, 150, 149, 152);
+bezierVertex(149, 152, 151, 162, 149, 178);
+bezierVertex(149, 178, 148, 184, 148, 185);
+bezierVertex(148, 185, 147, 191, 152, 186);
+bezierVertex(152, 186, 153, 186, 153, 186);
+vertex(153, 177);
+endShape();
+
+//star
+strokeCap(ROUND);
+strokeWeight(4);
+noFill();
+beginShape();
+vertex(163, 153);
+vertex(167, 138);
+vertex(173, 153);
+vertex(159, 143);
+vertex(177, 144);
+vertex(163, 153);
+endShape();
+strokeCap(SQUARE);
+
+//nonexistant text XD
+textSize(35);
+text('BRISTLEFROST', 183,357);
+var logo_img = get(0, 0, 350, 400);
+
+//function for the logo
+var draw_logo = function(x, y, sz, r){
+    imageMode(CENTER);
+    pushMatrix();
+    translate(x,y);
+    rotate(r);
+    image(logo_img, 0, 0, sz * 0.875, sz);
+    popMatrix();
+    imageMode(CORNER);
+};
+//}
+
+//Too much masking in here {
+background(0);
+fill(255);
+beginShape();
+vertex(14, 116);
+bezierVertex(14, 116, 2, 126, 6, 136);
+bezierVertex(6, 136, 9, 146, 31, 136);
+bezierVertex(31, 136, 44, 128, 50, 120);
+bezierVertex(50, 120, 50, 114, 52, 110);
+bezierVertex(52, 110, 25, 119, 7, 101);
+bezierVertex(7, 101, 2, 97, 2, 94);
+bezierVertex(2, 94, 13, 107, 26, 108);
+bezierVertex(26, 108, 40, 110, 51, 106);
+bezierVertex(51, 106, 56, 85, 82, 61);
+bezierVertex(82, 61, 92, 75, 80, 78);
+bezierVertex(80, 78, 80, 83, 80, 85);
+bezierVertex(80, 85, 92, 83, 91, 89);
+bezierVertex(91, 89, 92, 88, 92, 88);
+bezierVertex(92, 88, 94, 85, 98, 89);
+bezierVertex(98, 89, 107, 90, 103, 86);
+bezierVertex(103, 86, 100, 82, 93, 84);
+bezierVertex(93, 84, 94, 76, 101, 75);
+bezierVertex(101, 75, 112, 75, 114, 75);
+bezierVertex(114, 75, 120, 75, 116, 80);
+bezierVertex(116, 80, 113, 85, 120, 85);
+bezierVertex(120, 85, 124, 83, 125, 77);
+bezierVertex(125, 77, 132, 79, 134, 83);
+bezierVertex(134, 83, 135, 77, 134, 72);
+bezierVertex(134, 72, 129, 72, 130, 65);
+bezierVertex(130, 65, 135, 62, 138, 63);
+bezierVertex(138, 63, 138, 60, 138, 59);
+bezierVertex(138, 59, 134, 54, 140, 53);
+bezierVertex(140, 53, 140, 42, 153, 44);
+bezierVertex(153, 44, 158, 45, 158, 50);
+bezierVertex(158, 50, 161, 50, 162, 47);
+bezierVertex(162, 47, 171, 51, 165, 53);
+bezierVertex(165, 53, 166, 59, 166, 59);
+bezierVertex(166, 59, 177, 58, 171, 66);
+bezierVertex(171, 66, 171, 69, 175, 71);
+bezierVertex(175, 71, 177, 72, 173, 77);
+bezierVertex(173, 77, 169, 79, 166, 78);
+bezierVertex(166, 78, 165, 80, 161, 80);
+bezierVertex(161, 80, 158, 84, 164, 83);
+bezierVertex(164, 83, 166, 80, 169, 82);
+bezierVertex(169, 82, 169, 85, 170, 86);
+bezierVertex(170, 86, 173, 87, 170, 90);
+bezierVertex(170, 90, 167, 97, 179, 100);
+bezierVertex(179, 100, 183, 100, 185, 96);
+bezierVertex(185, 96, 191, 96, 195, 96);
+bezierVertex(195, 96, 198, 94, 199, 92);
+bezierVertex(199, 92, 202, 97, 206, 96);
+bezierVertex(206, 96, 207, 93, 207, 93);
+bezierVertex(210, 99, 214, 92, 214, 92);
+bezierVertex(217, 93, 221, 93, 221, 93);
+bezierVertex(218, 95, 214, 95, 214, 95);
+bezierVertex(208, 107, 216, 105, 216, 105);
+bezierVertex(221, 103, 225, 101, 225, 101);
+bezierVertex(225, 93, 227, 91, 227, 91);
+bezierVertex(231, 90, 233, 94, 233, 94);
+bezierVertex(233, 88, 238, 91, 238, 91);
+bezierVertex(242, 91, 237, 86, 237, 86);
+bezierVertex(232, 82, 236, 79, 236, 79);
+bezierVertex(240, 72, 239, 67, 239, 67);
+bezierVertex(245, 68, 245, 67, 245, 67);
+bezierVertex(245, 66, 248, 65, 248, 65);
+bezierVertex(245, 55, 257, 57, 257, 57);
+bezierVertex(259, 58, 254, 60, 254, 60);
+bezierVertex(252, 74, 256, 71, 256, 71);
+bezierVertex(261, 70, 260, 63, 260, 63);
+bezierVertex(256, 62, 261, 59, 261, 59);
+bezierVertex(272, 70, 277, 92, 277, 92);
+bezierVertex(289, 113, 297, 107, 297, 107);
+bezierVertex(302, 104, 301, 96, 301, 96);
+bezierVertex(307, 105, 299, 108, 299, 108);
+bezierVertex(295, 110, 289, 110, 289, 110);
+bezierVertex(305, 123, 298, 149, 298, 149);
+bezierVertex(292, 168, 282, 169, 282, 169);
+bezierVertex(277, 171, 271, 170, 271, 170);
+bezierVertex(289, 165, 289, 156, 289, 156);
+bezierVertex(289, 152, 287, 147, 287, 147);
+bezierVertex(286, 153, 280, 157, 280, 157);
+bezierVertex(276, 160, 272, 158, 272, 158);
+bezierVertex(272, 164, 259, 163, 259, 163);
+bezierVertex(255, 173, 250, 178, 250, 178);
+bezierVertex(242, 185, 254, 200, 254, 200);
+bezierVertex(259, 206, 260, 206, 260, 206);
+bezierVertex(252, 204, 249, 200, 249, 200);
+bezierVertex(249, 206, 249, 205, 249, 205);
+bezierVertex(245, 198, 246, 194, 246, 194);
+bezierVertex(237, 187, 231, 190, 231, 190);
+bezierVertex(230, 194, 240, 196, 240, 196);
+bezierVertex(246, 199, 250, 211, 251, 215);
+bezierVertex(251, 215, 257, 231, 270, 232);
+bezierVertex(270, 232, 277, 232, 285, 232);
+bezierVertex(285, 232, 281, 237, 254, 233);
+bezierVertex(254, 233, 260, 256, 289, 258);
+bezierVertex(289, 258, 330, 256, 351, 282);
+bezierVertex(351, 282, 358, 294, 343, 304);
+bezierVertex(343, 304, 338, 306, 334, 305);
+bezierVertex(334, 305, 350, 293, 340, 284);
+bezierVertex(340, 284, 336, 278, 321, 280);
+bezierVertex(321, 280, 296, 307, 277, 308);
+bezierVertex(277, 308, 279, 314, 285, 325);
+bezierVertex(285, 325, 279, 320, 261, 304);
+bezierVertex(261, 304, 259, 310, 260, 314);
+bezierVertex(260, 313, 267, 320, 279, 328);
+bezierVertex(279, 328, 275, 328, 270, 328);
+bezierVertex(270, 328, 266, 325, 265, 322);
+bezierVertex(265, 322, 264, 326, 263, 331);
+bezierVertex(263, 331, 262, 356, 229, 359);
+bezierVertex(229, 359, 228, 355, 228, 351);
+bezierVertex(228, 351, 236, 348, 238, 341);
+bezierVertex(238, 341, 237, 334, 245, 325);
+bezierVertex(245, 325, 248, 322, 249, 321);
+bezierVertex(249, 321, 248, 314, 252, 317);
+bezierVertex(252, 317, 260, 314, 252, 309);
+bezierVertex(252, 309, 248, 309, 244, 313);
+bezierVertex(244, 313, 241, 316, 236, 325);
+bezierVertex(236, 325, 232, 327, 221, 331);
+bezierVertex(221, 330, 225, 308, 211, 282);
+bezierVertex(211, 282, 210, 275, 209, 265);
+bezierVertex(209, 265, 208, 260, 206, 258);
+bezierVertex(206, 258, 203, 245, 196, 235);
+bezierVertex(192, 231, 184, 225, 184, 225);
+bezierVertex(179, 224, 179, 224, 175, 217);
+bezierVertex(175, 217, 172, 213, 165, 209);
+bezierVertex(165, 209, 163, 203, 171, 198);
+bezierVertex(171, 198, 177, 195, 182, 199);
+bezierVertex(182, 199, 189, 211, 203, 209);
+bezierVertex(203, 209, 209, 208, 213, 202);
+bezierVertex(213, 202, 214, 199, 218, 199);
+bezierVertex(218, 199, 224, 199, 222, 197);
+bezierVertex(222, 197, 229, 197, 230, 192);
+bezierVertex(230, 192, 233, 187, 232, 185);
+bezierVertex(232, 185, 242, 186, 242, 182);
+bezierVertex(242, 182, 240, 175, 239, 173);
+bezierVertex(239, 173, 238, 168, 244, 160);
+bezierVertex(244, 160, 245, 157, 241, 154);
+bezierVertex(241, 154, 250, 156, 254, 149);
+bezierVertex(254, 149, 258, 146, 258, 143);
+bezierVertex(258, 144, 246, 155, 220, 153);
+bezierVertex(220, 153, 229, 152, 234, 147);
+bezierVertex(234, 147, 226, 148, 223, 143);
+bezierVertex(223, 143, 217, 144, 210, 143);
+bezierVertex(210, 143, 231, 137, 240, 127);
+bezierVertex(240, 127, 228, 131, 220, 127);
+bezierVertex(220, 127, 213, 132, 207, 131);
+bezierVertex(207, 131, 212, 169, 189, 173);
+bezierVertex(189, 173, 202, 166, 202, 149);
+bezierVertex(202, 149, 189, 163, 183, 168);
+bezierVertex(183, 168, 177, 181, 191, 188);
+bezierVertex(191, 188, 201, 194, 203, 187);
+bezierVertex(203, 187, 205, 197, 189, 192);
+bezierVertex(189, 192, 179, 189, 175, 177);
+bezierVertex(175, 177, 170, 185, 177, 190);
+bezierVertex(177, 190, 161, 188, 163, 180);
+bezierVertex(163, 180, 155, 181, 158, 199);
+bezierVertex(158, 199, 165, 239, 144, 242);
+bezierVertex(144, 242, 154, 231, 155, 212);
+bezierVertex(155, 212, 155, 206, 153, 202);
+bezierVertex(153, 202, 127, 247, 99, 248);
+bezierVertex(99, 248, 113, 237, 125, 228);
+bezierVertex(125, 228, 113, 229, 108, 231);
+bezierVertex(108, 231, 83, 241, 68, 271);
+bezierVertex(68, 270, 66, 282, 66, 296);
+bezierVertex(66, 296, 71, 319, 64, 328);
+bezierVertex(64, 328, 61, 334, 64, 344);
+bezierVertex(64, 344, 59, 344, 58, 349);
+bezierVertex(58, 349, 55, 352, 50, 353);
+bezierVertex(50, 353, 48, 370, 55, 381);
+bezierVertex(55, 381, 62, 388, 53, 388);
+bezierVertex(53, 388, 51, 386, 51, 384);
+bezierVertex(51, 384, 48, 383, 46, 383);
+bezierVertex(46, 383, 47, 387, 42, 385);
+bezierVertex(42, 385, 31, 378, 30, 367);
+bezierVertex(30, 365, 36, 364, 31, 362);
+bezierVertex(31, 362, 30, 355, 30, 349);
+bezierVertex(30, 349, 34, 346, 30, 343);
+bezierVertex(30, 343, 24, 341, 14, 342);
+bezierVertex(14, 342, 9, 345, 0, 352);
+vertex(0, 310);
+bezierVertex(0, 310, 31, 297, 20, 255);
+bezierVertex(20, 255, 13, 284, 0, 290);
+vertex(0, 260);
+bezierVertex(0, 250, 9, 233, 9, 233);
+bezierVertex(4, 240, 1, 240, 0, 238);
+vertex(0, 207);
+bezierVertex(0, 207, 4, 204, 8, 203);
+bezierVertex(8, 203, 6, 201, 0, 201);
+vertex(0, 201);
+vertex(0, 174);
+bezierVertex(0, 174, 12, 176, 21, 180);
+bezierVertex(21, 180, 23, 175, 26, 173);
+bezierVertex(26, 173, 12, 168, 0, 168);
+vertex(0, 159);
+vertex(8, 160);
+vertex(0, 154);
+vertex(0, 140);
+bezierVertex(0, 140, 4, 140, 4, 140);
+bezierVertex(4, 140, 1, 129, 2, 126);
+bezierVertex(2, 126, 6, 119, 13, 117);
+endShape();
+
+beginShape();
+vertex(174, 15);
+bezierVertex(174, 15, 173, 7, 176, 0);
+vertex(169, 0);
+bezierVertex(169, 0, 167, 10, 168, 18);
+bezierVertex(168, 18, 167, 19, 164, 17);
+bezierVertex(164, 17, 156, 11, 147, 15);
+bezierVertex(147, 15, 147, 16, 149, 17);
+bezierVertex(149, 17, 154, 18, 152, 19);
+bezierVertex(152, 19, 148, 20, 146, 23);
+bezierVertex(146, 23, 150, 25, 154, 22);
+bezierVertex(154, 22, 157, 30, 164, 27);
+bezierVertex(164, 27, 169, 27, 165, 31);
+bezierVertex(165, 31, 162, 37, 166, 38);
+bezierVertex(166, 38, 170, 41, 173, 40);
+bezierVertex(173, 40, 176, 41, 176, 48);
+bezierVertex(176, 48, 176, 52, 183, 46);
+bezierVertex(182, 46, 187, 40, 190, 46);
+bezierVertex(190, 46, 194, 49, 200, 44);
+bezierVertex(200, 44, 200, 38, 199, 33);
+bezierVertex(199, 33, 203, 27, 214, 29);
+bezierVertex(214, 29, 221, 33, 220, 38);
+bezierVertex(220, 38, 219, 39, 214, 39);
+bezierVertex(214, 39, 215, 42, 211, 42);
+bezierVertex(211, 42, 206, 46, 214, 47);
+bezierVertex(214, 47, 217, 46, 219, 43);
+bezierVertex(219, 43, 226, 43, 220, 47);
+bezierVertex(220, 47, 214, 52, 221, 54);
+bezierVertex(221, 54, 231, 55, 227, 48);
+bezierVertex(227, 48, 225, 46, 223, 44);
+bezierVertex(223, 44, 242, 49, 242, 43);
+bezierVertex(242, 43, 244, 44, 243, 46);
+bezierVertex(243, 46, 244, 53, 251, 49);
+bezierVertex(251, 49, 248, 43, 237, 36);
+bezierVertex(237, 36, 255, 49, 268, 41);
+bezierVertex(268, 41, 270, 40, 263, 40);
+bezierVertex(263, 40, 253, 41, 247, 37);
+bezierVertex(248, 37, 237, 23, 192, 10);
+bezierVertex(192, 10, 182, 10, 174, 14);
+endShape();
+var outline = get();
+
+//Hairdo texture {
+
+//background for masking
+background(255);
+
+//cover up
+fill(125, 150, 195);
+rect(0, 0, 400, 400);
+
+//hair detail
+strokeWeight(2);
+fill(82, 86, 136);
+stroke(82, 86, 136);
+noStroke();
+beginShape();
+vertex(121, 79);
+bezierVertex(121, 79, 123, 85, 126, 83);
+bezierVertex(126, 83, 130, 83, 133, 89);
+bezierVertex(133, 89, 134, 93, 139, 92);
+bezierVertex(139, 92, 146, 92, 145, 96);
+bezierVertex(145, 96, 146, 100, 155, 94);
+bezierVertex(155, 94, 154, 97, 149, 101);
+bezierVertex(149, 102, 147, 104, 142, 102);
+bezierVertex(142, 102, 139, 107, 134, 106);
+bezierVertex(134, 106, 130, 103, 131, 109);
+bezierVertex(131, 109, 137, 112, 132, 115);
+bezierVertex(132, 115, 127, 115, 129, 122);
+bezierVertex(129, 122, 133, 122, 134, 124);
+bezierVertex(134, 124, 138, 127, 139, 123);
+bezierVertex(139, 123, 140, 124, 144, 121);
+bezierVertex(144, 121, 146, 123, 151, 123);
+bezierVertex(151, 123, 150, 116, 164, 103);
+bezierVertex(164, 103, 172, 107, 173, 122);
+bezierVertex(173, 122, 177, 123, 184, 119);
+bezierVertex(184, 119, 188, 116, 186, 111);
+bezierVertex(186, 111, 188, 110, 188, 109);
+bezierVertex(188, 109, 192, 103, 185, 98);
+bezierVertex(185, 98, 179, 102, 175, 99);
+bezierVertex(175, 99, 169, 98, 164, 92);
+bezierVertex(164, 92, 164, 86, 165, 83);
+bezierVertex(165, 83, 152, 82, 167, 77);
+bezierVertex(167, 77, 174, 77, 176, 73);
+bezierVertex(176, 73, 176, 68, 172, 68);
+bezierVertex(172, 68, 169, 68, 173, 62);
+bezierVertex(173, 62, 173, 59, 166, 59);
+bezierVertex(166, 59, 166, 66, 164, 69);
+bezierVertex(164, 69, 157, 74, 157, 70);
+bezierVertex(157, 70, 153, 65, 158, 65);
+bezierVertex(158, 65, 156, 53, 157, 49);
+bezierVertex(157, 49, 152, 41, 142, 45);
+bezierVertex(142, 45, 140, 47, 141, 54);
+bezierVertex(141, 54, 135, 53, 138, 60);
+bezierVertex(138, 60, 139, 63, 134, 64);
+bezierVertex(134, 64, 130, 62, 131, 70);
+bezierVertex(131, 70, 136, 75, 134, 80);
+bezierVertex(134, 80, 133, 83, 131, 80);
+bezierVertex(131, 80, 126, 72, 122, 81);
+endShape();
+
+fill(80, 95, 156);
+stroke(80, 95, 156);
+beginShape();
+vertex(156, 48);
+bezierVertex(156, 48, 154, 57, 157, 61);
+bezierVertex(157, 61, 158, 65, 154, 68);
+bezierVertex(154, 68, 152, 69, 157, 73);
+bezierVertex(157, 73, 164, 73, 164, 65);
+bezierVertex(164, 65, 165, 59, 166, 53);
+bezierVertex(166, 53, 174, 51, 165, 42);
+bezierVertex(156, 48, 156, 48, 156, 48);
+endShape();
+
+beginShape();
+vertex(104, 88);
+bezierVertex(104, 88, 101, 88, 103, 85);
+bezierVertex(103, 85, 97, 86, 93, 84);
+bezierVertex(93, 84, 93, 77, 101, 75);
+bezierVertex(101, 75, 123, 74, 118, 80);
+bezierVertex(118, 80, 113, 82, 120, 86);
+bezierVertex(120, 86, 121, 86, 123, 81);
+bezierVertex(123, 81, 129, 82, 132, 88);
+bezierVertex(132, 88, 134, 94, 140, 92);
+bezierVertex(140, 92, 144, 94, 143, 98);
+bezierVertex(143, 98, 143, 102, 139, 102);
+bezierVertex(139, 102, 135, 95, 130, 98);
+bezierVertex(130, 98, 127, 101, 124, 100);
+bezierVertex(124, 100, 121, 99, 109, 106);
+bezierVertex(109, 106, 97, 115, 92, 107);
+bezierVertex(92, 107, 79, 112, 79, 104);
+bezierVertex(79, 104, 78, 98, 70, 98);
+bezierVertex(70, 98, 67, 98, 64, 98);
+bezierVertex(64, 98, 65, 95, 71, 93);
+bezierVertex(71, 93, 74, 93, 74, 93);
+bezierVertex(76, 97, 79, 93, 79, 93);
+bezierVertex(83, 92, 86, 92, 86, 92);
+bezierVertex(85, 103, 85, 103, 85, 103);
+bezierVertex(91, 95, 97, 98, 97, 98);
+bezierVertex(101, 107, 107, 103, 107, 103);
+bezierVertex(114, 95, 105, 92, 105, 92);
+bezierVertex(101, 89, 96, 91, 96, 91);
+bezierVertex(91, 92, 87, 90, 87, 90);
+bezierVertex(85, 88, 85, 87, 85, 87);
+bezierVertex(75, 90, 71, 84, 71, 84);
+bezierVertex(69, 84, 67, 84, 64, 84);
+bezierVertex(70, 81, 72, 81, 72, 81);
+bezierVertex(73, 76, 76, 78, 76, 78);
+bezierVertex(78, 79, 80, 82, 80, 82);
+bezierVertex(93, 84, 101, 89, 101, 89);
+endShape();
+
+fill(78, 78, 116);
+stroke(78, 78, 116);
+strokeWeight(3);
+beginShape();
+vertex(163, 83);
+bezierVertex(163, 83, 165, 88, 165, 94);
+bezierVertex(165, 94, 168, 100, 178, 100);
+bezierVertex(178, 100, 175, 85, 169, 78);
+bezierVertex(169, 78, 166, 79, 163, 84);
+endShape();
+
+beginShape();
+vertex(143, 97);
+bezierVertex(150, 99, 154, 96, 154, 96);
+bezierVertex(154, 94, 153, 98, 153, 98);
+bezierVertex(150, 100, 150, 100, 149, 101);
+bezierVertex(147, 105, 143, 102, 143, 102);
+bezierVertex(141, 99, 144, 86, 144, 97);
+endShape();
+
+beginShape();
+vertex(124, 99);
+bezierVertex(124, 99, 121, 93, 119, 99);
+bezierVertex(119, 99, 119, 102, 113, 100);
+bezierVertex(113, 100, 105, 103, 111, 114);
+bezierVertex(111, 114, 113, 118, 121, 116);
+bezierVertex(121, 116, 125, 121, 128, 121);
+bezierVertex(128, 121, 127, 114, 130, 115);
+bezierVertex(130, 115, 132, 116, 132, 110);
+bezierVertex(132, 110, 132, 107, 129, 104);
+bezierVertex(129, 104, 136, 104, 141, 106);
+bezierVertex(141, 106, 136, 94, 129, 97);
+bezierVertex(129, 97, 127, 97, 124, 99);
+endShape();
+
+strokeWeight(0);
+beginShape();
+vertex(81, 81);
+bezierVertex(81, 81, 76, 83, 75, 80);
+bezierVertex(75, 80, 74, 76, 71, 81);
+bezierVertex(71, 81, 69, 83, 60, 83);
+bezierVertex(60, 83, 48, 76, 76, 72);
+bezierVertex(76, 72, 92, 73, 93, 79);
+bezierVertex(90, 80, 86, 82, 79, 81);
+endShape();
+
+fill(90, 103, 159);
+noStroke();
+beginShape();
+vertex(75, 71);
+bezierVertex(75, 71, 79, 71, 81, 74);
+bezierVertex(81, 74, 84, 75, 89, 76);
+bezierVertex(89, 76, 100, 53, 85, 51);
+bezierVertex(80, 58, 80, 58, 77, 70);
+endShape();
+
+beginShape();
+vertex(180, 119);
+vertex(189, 113);
+bezierVertex(189, 113, 193, 116, 197, 113);
+bezierVertex(197, 113, 202, 110, 212, 118);
+bezierVertex(212, 118, 215, 127, 212, 129);
+bezierVertex(212, 129, 207, 128, 206, 123);
+bezierVertex(206, 123, 202, 118, 200, 127);
+bezierVertex(200, 127, 200, 133, 191, 133);
+bezierVertex(191, 133, 184, 130, 183, 126);
+bezierVertex(183, 126, 190, 125, 182, 121);
+bezierVertex(182, 121, 181, 121, 180, 119);
+endShape();
+
+beginShape();
+vertex(208, 131);
+bezierVertex(208, 131, 188, 134, 184, 139);
+bezierVertex(184, 139, 178, 146, 173, 152);
+bezierVertex(173, 152, 172, 157, 181, 156);
+bezierVertex(181, 156, 186, 152, 189, 151);
+bezierVertex(189, 151, 194, 148, 192, 155);
+bezierVertex(192, 155, 187, 158, 181, 163);
+bezierVertex(181, 163, 178, 169, 185, 168);
+bezierVertex(177, 183, 224, 168, 224, 168);
+bezierVertex(224, 142, 208, 145, 208, 145);
+bezierVertex(210, 137, 208, 131, 208, 131);
+endShape();
+
+fill(62, 161, 208);
+beginShape();
+vertex(159, 0);
+vertex(182, 0);
+vertex(253, 15);
+vertex(273, 44);
+vertex(248, 54);
+vertex(239, 47);
+vertex(225, 57);
+vertex(209, 61);
+vertex(203, 48);
+vertex(190, 48);
+vertex(176, 55);
+vertex(165, 40);
+vertex(153, 37);
+vertex(154, 33);
+vertex(145, 25);
+vertex(139, 14);
+vertex(161, 0);
+endShape();
+
+fill(79, 174, 222);
+beginShape();
+vertex(170, 40);
+bezierVertex(170, 40, 166, 31, 175, 26);
+bezierVertex(175, 26, 179, 25, 180, 19);
+bezierVertex(180, 19, 182, 16, 180, 10);
+bezierVertex(180, 10, 182, 6, 184, 11);
+bezierVertex(184, 11, 183, 18, 188, 19);
+bezierVertex(188, 19, 194, 20, 191, 28);
+bezierVertex(191, 28, 189, 33, 194, 35);
+bezierVertex(194, 35, 202, 38, 201, 46);
+bezierVertex(201, 46, 192, 49, 184, 51);
+bezierVertex(184, 51, 174, 54, 171, 46);
+bezierVertex(171, 46, 169, 42, 170, 38);
+endShape();
+
+fill(78, 80, 120);
+beginShape();
+vertex(198, 6);
+bezierVertex(198, 6, 195, 18, 200, 17);
+bezierVertex(200, 17, 205, 18, 200, 21);
+bezierVertex(200, 21, 199, 24, 206, 29);
+bezierVertex(206, 29, 208, 34, 222, 28);
+bezierVertex(222, 29, 222, 24, 225, 23);
+bezierVertex(225, 23, 222, 8, 197, 12);
+endShape();
+
+beginShape();
+vertex(243, 28);
+bezierVertex(243, 28, 242, 39, 247, 44);
+bezierVertex(247, 44, 253, 45, 250, 33);
+bezierVertex(250, 33, 256, 37, 255, 47);
+bezierVertex(255, 47, 262, 49, 274, 41);
+bezierVertex(271, 35, 261, 36, 249, 28);
+bezierVertex(243, 28, 242, 28, 242, 28);
+endShape();
+
+fill(255);
+beginShape();
+vertex(179, 34);
+bezierVertex(179, 34, 182, 33, 183, 34);
+bezierVertex(183, 34, 184, 37, 182, 40);
+bezierVertex(182, 40, 179, 39, 178, 37);
+bezierVertex(178, 37, 178, 36, 180, 34);
+endShape();
+
+fill(87, 220, 250);
+beginShape();
+vertex(229, 30);
+bezierVertex(229, 30, 226, 33, 230, 34);
+bezierVertex(230, 34, 233, 33, 232, 31);
+bezierVertex(232, 31, 230, 30, 227, 31);
+endShape();
+
+beginShape();
+vertex(240, 62);
+bezierVertex(240, 62, 243, 64, 244, 67);
+bezierVertex(244, 67, 244, 70, 246, 69);
+bezierVertex(246, 69, 252, 68, 247, 72);
+bezierVertex(247, 72, 243, 75, 245, 78);
+bezierVertex(245, 78, 246, 81, 247, 76);
+bezierVertex(247, 76, 250, 74, 251, 78);
+bezierVertex(251, 78, 251, 83, 251, 87);
+bezierVertex(251, 87, 252, 90, 259, 89);
+bezierVertex(259, 89, 259, 83, 267, 85);
+bezierVertex(267, 85, 280, 84, 276, 90);
+bezierVertex(276, 90, 272, 95, 267, 95);
+bezierVertex(267, 95, 264, 93, 262, 90);
+bezierVertex(262, 90, 258, 91, 257, 93);
+bezierVertex(257, 93, 255, 96, 248, 96);
+bezierVertex(248, 96, 247, 93, 244, 93);
+bezierVertex(244, 93, 240, 93, 242, 94);
+bezierVertex(242, 94, 247, 96, 247, 98);
+bezierVertex(247, 98, 245, 100, 243, 98);
+bezierVertex(243, 98, 241, 97, 240, 96);
+bezierVertex(240, 96, 239, 100, 234, 98);
+bezierVertex(234, 98, 237, 95, 233, 94);
+bezierVertex(233, 94, 232, 87, 234, 70);
+bezierVertex(234, 70, 239, 65, 240, 61);
+endShape();
+
+fill(92, 105, 166);
+beginShape();
+vertex(255, 50);
+bezierVertex(255, 50, 241, 64, 245, 67);
+bezierVertex(245, 67, 245, 69, 248, 68);
+bezierVertex(248, 68, 251, 69, 248, 72);
+bezierVertex(248, 72, 247, 73, 245, 73);
+bezierVertex(245, 73, 244, 77, 245, 80);
+bezierVertex(245, 80, 249, 78, 248, 76);
+bezierVertex(248, 76, 251, 75, 251, 79);
+bezierVertex(251, 79, 251, 81, 251, 85);
+bezierVertex(251, 85, 253, 87, 253, 89);
+bezierVertex(253, 89, 257, 91, 259, 90);
+bezierVertex(259, 90, 259, 86, 260, 84);
+bezierVertex(260, 84, 266, 85, 278, 84);
+bezierVertex(279, 84, 276, 68, 255, 51);
+endShape();
+
+beginShape();
+vertex(275, 88);
+bezierVertex(275, 88, 272, 93, 270, 95);
+bezierVertex(270, 95, 267, 96, 266, 94);
+bezierVertex(266, 94, 264, 96, 263, 96);
+bezierVertex(263, 96, 257, 94, 257, 99);
+bezierVertex(257, 99, 258, 102, 265, 100);
+bezierVertex(265, 100, 270, 102, 272, 98);
+bezierVertex(272, 98, 277, 100, 279, 95);
+bezierVertex(279, 95, 279, 91, 274, 88);
+endShape();
+
+fill(78, 78, 116);
+beginShape();
+vertex(253, 68);
+bezierVertex(253, 68, 253, 78, 260, 75);
+bezierVertex(260, 75, 260, 73, 260, 73);
+bezierVertex(260, 73, 264, 72, 258, 68);
+bezierVertex(258, 68, 258, 63, 266, 68);
+bezierVertex(270, 70, 268, 60, 257, 51);
+bezierVertex(258, 59, 253, 69, 253, 69);
+endShape();
+
+fill(110, 130, 181);
+beginShape();
+vertex(206, 115);
+bezierVertex(206, 115, 225, 114, 218, 121);
+bezierVertex(218, 121, 229, 124, 231, 117);
+bezierVertex(231, 117, 231, 116, 233, 109);
+bezierVertex(233, 110, 235, 108, 239, 112);
+bezierVertex(239, 112, 245, 112, 250, 108);
+bezierVertex(250, 108, 248, 104, 244, 100);
+bezierVertex(244, 100, 243, 98, 243, 98);
+bezierVertex(244, 98, 249, 98, 245, 95);
+bezierVertex(245, 95, 242, 94, 241, 93);
+bezierVertex(241, 93, 247, 92, 249, 95);
+bezierVertex(249, 95, 253, 94, 257, 93);
+bezierVertex(257, 93, 259, 91, 259, 90);
+bezierVertex(259, 90, 263, 90, 264, 92);
+bezierVertex(264, 92, 266, 94, 267, 94);
+bezierVertex(267, 94, 265, 94, 263, 96);
+bezierVertex(263, 96, 260, 95, 257, 98);
+bezierVertex(257, 98, 258, 99, 263, 100);
+bezierVertex(263, 100, 267, 100, 272, 98);
+bezierVertex(272, 98, 277, 98, 278, 95);
+bezierVertex(278, 95, 280, 98, 285, 99);
+bezierVertex(281, 101, 281, 101, 275, 101);
+bezierVertex(272, 106, 272, 106, 271, 108);
+bezierVertex(271, 113, 271, 113, 266, 114);
+bezierVertex(265, 115, 265, 115, 256, 113);
+bezierVertex(255, 116, 255, 116, 253, 116);
+bezierVertex(252, 119, 252, 119, 249, 119);
+bezierVertex(240, 118, 240, 118, 237, 119);
+bezierVertex(238, 122, 238, 122, 240, 122);
+bezierVertex(253, 122, 253, 122, 255, 121);
+bezierVertex(254, 119, 254, 119, 267, 121);
+bezierVertex(274, 118, 274, 118, 277, 116);
+bezierVertex(282, 115, 282, 115, 284, 117);
+bezierVertex(286, 119, 286, 119, 288, 116);
+bezierVertex(290, 114, 293, 113, 293, 113);
+bezierVertex(299, 113, 303, 134, 298, 135);
+bezierVertex(295, 134, 291, 134, 291, 134);
+bezierVertex(284, 133, 282, 136, 282, 136);
+bezierVertex(281, 138, 281, 138, 281, 138);
+bezierVertex(271, 137, 271, 141, 271, 141);
+bezierVertex(271, 142, 272, 143, 272, 143);
+bezierVertex(272, 146, 269, 144, 269, 144);
+bezierVertex(263, 141, 258, 146, 258, 146);
+bezierVertex(259, 148, 257, 149, 257, 149);
+bezierVertex(257, 149, 255, 148, 255, 147);
+bezierVertex(249, 149, 253, 155, 253, 155);
+bezierVertex(252, 159, 250, 161, 250, 161);
+bezierVertex(247, 161, 247, 164, 247, 164);
+bezierVertex(246, 168, 242, 168, 242, 168);
+bezierVertex(231, 166, 242, 157, 240, 150);
+bezierVertex(240, 150, 238, 141, 242, 143);
+bezierVertex(242, 143, 247, 143, 245, 138);
+bezierVertex(245, 138, 247, 133, 242, 133);
+bezierVertex(242, 133, 239, 133, 238, 130);
+bezierVertex(235, 129, 226, 128, 216, 135);
+bezierVertex(216, 135, 209, 131, 214, 126);
+bezierVertex(214, 126, 210, 121, 207, 115);
+endShape();
+
+fill(92, 105, 166);
+beginShape();
+vertex(295, 112);
+bezierVertex(295, 112, 295, 120, 281, 117);
+bezierVertex(281, 117, 279, 116, 274, 119);
+bezierVertex(274, 119, 269, 123, 258, 121);
+bezierVertex(258, 121, 255, 123, 251, 123);
+bezierVertex(251, 123, 246, 124, 235, 123);
+bezierVertex(235, 123, 235, 115, 247, 118);
+bezierVertex(247, 118, 253, 110, 257, 115);
+bezierVertex(250, 111, 259, 114, 265, 114);
+bezierVertex(265, 114, 268, 109, 267, 113);
+bezierVertex(267, 113, 269, 100, 273, 113);
+bezierVertex(273, 113, 272, 108, 278, 108);
+bezierVertex(278, 108, 283, 108, 285, 102);
+bezierVertex(285, 102, 292, 90, 305, 87);
+bezierVertex(310, 93, 312, 107, 295, 113);
+endShape();
+
+fill(87, 220, 250);
+beginShape();
+vertex(285, 100);
+vertex(282, 101);
+bezierVertex(280, 102, 278, 101, 278, 101);
+bezierVertex(275, 103, 272, 95, 272, 105);
+bezierVertex(268, 109, 271, 125, 269, 114);
+bezierVertex(273, 114, 273, 110, 273, 110);
+bezierVertex(275, 110, 275, 109, 275, 107);
+bezierVertex(276, 107, 279, 117, 279, 106);
+bezierVertex(280, 110, 282, 110, 282, 107);
+bezierVertex(286, 103, 285, 107, 285, 101);
+endShape();
+
+fill(125, 150, 195);
+beginShape();
+vertex(232, 90);
+bezierVertex(234, 93, 237, 97, 234, 96);
+bezierVertex(234, 96, 231, 99, 238, 99);
+bezierVertex(238, 99, 240, 95, 241, 98);
+bezierVertex(241, 98, 248, 101, 250, 106);
+bezierVertex(250, 106, 253, 108, 245, 112);
+bezierVertex(245, 112, 239, 112, 234, 109);
+bezierVertex(234, 109, 233, 119, 227, 121);
+bezierVertex(227, 121, 222, 122, 217, 122);
+bezierVertex(217, 122, 222, 114, 211, 114);
+bezierVertex(211, 114, 209, 114, 206, 115);
+bezierVertex(206, 115, 201, 113, 199, 111);
+bezierVertex(200, 111, 196, 110, 192, 113);
+bezierVertex(192, 113, 188, 113, 185, 113);
+bezierVertex(185, 113, 185, 110, 190, 107);
+bezierVertex(190, 107, 197, 102, 195, 97);
+bezierVertex(195, 97, 193, 97, 191, 97);
+bezierVertex(191, 97, 195, 94, 197, 90);
+bezierVertex(200, 87, 222, 90, 231, 90);
+endShape();
+
+fill(132, 217, 243);
+beginShape();
+vertex(172, 149);
+bezierVertex(172, 149, 170, 149, 165, 155);
+bezierVertex(165, 155, 162, 154, 162, 153);
+bezierVertex(162, 153, 161, 158, 158, 164);
+bezierVertex(158, 164, 153, 167, 134, 171);
+bezierVertex(134, 171, 123, 170, 119, 169);
+bezierVertex(119, 169, 116, 169, 100, 178);
+bezierVertex(100, 178, 88, 183, 102, 184);
+bezierVertex(102, 184, 112, 184, 115, 184);
+bezierVertex(115, 184, 109, 188, 107, 191);
+bezierVertex(107, 191, 104, 193, 98, 189);
+bezierVertex(98, 189, 95, 190, 96, 194);
+bezierVertex(96, 194, 92, 196, 78, 200);
+bezierVertex(78, 200, 71, 202, 71, 197);
+bezierVertex(71, 197, 68, 191, 64, 195);
+bezierVertex(64, 195, 61, 196, 62, 203);
+bezierVertex(62, 203, 62, 205, 54, 208);
+bezierVertex(54, 208, 49, 209, 42, 210);
+bezierVertex(42, 210, 36, 211, 35, 207);
+bezierVertex(35, 207, 32, 207, 27, 209);
+bezierVertex(27, 209, 22, 211, 23, 215);
+bezierVertex(23, 215, 26, 219, 21, 223);
+bezierVertex(21, 223, 14, 225, 8, 228);
+bezierVertex(8, 228, 7, 224, 3, 225);
+bezierVertex(1, 226, 1, 228, 1, 267);
+bezierVertex(1, 267, 1, 267, 4, 268);
+bezierVertex(3, 272, 3, 272, 5, 273);
+bezierVertex(5, 273, 13, 270, 23, 285);
+bezierVertex(23, 285, 27, 284, 28, 289);
+bezierVertex(28, 289, 32, 284, 34, 281);
+bezierVertex(34, 281, 34, 279, 31, 276);
+bezierVertex(31, 276, 28, 273, 33, 269);
+bezierVertex(33, 269, 34, 266, 38, 263);
+bezierVertex(38, 263, 39, 262, 35, 260);
+bezierVertex(35, 260, 31, 254, 34, 254);
+bezierVertex(34, 254, 32, 244, 42, 240);
+bezierVertex(42, 240, 45, 236, 68, 243);
+bezierVertex(68, 243, 81, 244, 86, 238);
+bezierVertex(86, 238, 91, 233, 109, 231);
+bezierVertex(114, 254, 174, 255, 174, 255);
+bezierVertex(176, 219, 202, 192, 202, 192);
+bezierVertex(206, 185, 197, 182, 185, 185);
+bezierVertex(181, 187, 177, 193, 173, 211);
+bezierVertex(176, 186, 178, 177, 178, 177);
+bezierVertex(181, 177, 189, 172, 189, 172);
+bezierVertex(184, 166, 181, 167, 181, 167);
+bezierVertex(179, 165, 190, 157, 190, 157);
+bezierVertex(197, 153, 192, 152, 192, 152);
+bezierVertex(191, 149, 186, 153, 186, 153);
+bezierVertex(182, 157, 177, 157, 177, 157);
+bezierVertex(173, 156, 174, 152, 174, 152);
+bezierVertex(173, 150, 171, 148, 171, 148);
+endShape();
+
+fill(119, 209, 238);
+beginShape();
+vertex(72, 199);
+bezierVertex(72, 199, 70, 202, 76, 212);
+bezierVertex(76, 212, 99, 206, 105, 207);
+bezierVertex(105, 207, 99, 213, 99, 222);
+bezierVertex(99, 222, 100, 227, 101, 222);
+bezierVertex(101, 222, 104, 212, 109, 211);
+bezierVertex(109, 211, 111, 210, 119, 216);
+bezierVertex(119, 216, 123, 220, 128, 215);
+bezierVertex(128, 215, 132, 210, 138, 211);
+bezierVertex(138, 211, 142, 212, 139, 219);
+bezierVertex(139, 219, 135, 223, 130, 233);
+bezierVertex(130, 233, 139, 245, 155, 251);
+bezierVertex(155, 251, 169, 225, 159, 204);
+bezierVertex(159, 204, 156, 204, 156, 205);
+bezierVertex(156, 205, 149, 198, 139, 197);
+bezierVertex(139, 197, 131, 198, 131, 195);
+bezierVertex(131, 195, 132, 191, 136, 191);
+bezierVertex(136, 191, 142, 191, 143, 193);
+bezierVertex(143, 193, 144, 193, 145, 192);
+bezierVertex(145, 192, 146, 187, 158, 188);
+bezierVertex(158, 188, 166, 179, 169, 176);
+bezierVertex(174, 173, 174, 173, 176, 166);
+bezierVertex(175, 154, 175, 154, 174, 151);
+bezierVertex(172, 150, 172, 150, 169, 151);
+bezierVertex(167, 154, 166, 156, 161, 153);
+bezierVertex(161, 160, 161, 160, 161, 159);
+bezierVertex(161, 159, 156, 167, 140, 170);
+bezierVertex(140, 170, 130, 171, 123, 171);
+bezierVertex(123, 171, 118, 167, 109, 171);
+bezierVertex(109, 171, 103, 175, 97, 180);
+bezierVertex(97, 180, 94, 183, 104, 184);
+bezierVertex(104, 184, 110, 183, 113, 183);
+bezierVertex(113, 183, 111, 187, 107, 191);
+bezierVertex(107, 191, 103, 191, 99, 190);
+bezierVertex(99, 190, 97, 189, 97, 192);
+bezierVertex(97, 192, 94, 194, 81, 197);
+bezierVertex(81, 197, 77, 199, 72, 199);
+endShape();
+
+fill(174, 233, 228);
+beginShape();
+vertex(44, 213);
+bezierVertex(44, 213, 41, 209, 34, 212);
+bezierVertex(34, 212, 28, 216, 33, 219);
+bezierVertex(33, 219, 36, 221, 38, 218);
+bezierVertex(38, 218, 40, 217, 44, 221);
+bezierVertex(44, 221, 48, 225, 48, 219);
+bezierVertex(48, 219, 51, 216, 54, 217);
+bezierVertex(54, 217, 57, 219, 58, 215);
+bezierVertex(58, 215, 61, 208, 65, 210);
+bezierVertex(65, 210, 69, 213, 75, 218);
+bezierVertex(75, 218, 82, 225, 86, 220);
+bezierVertex(86, 220, 91, 211, 106, 206);
+bezierVertex(106, 206, 112, 205, 115, 209);
+bezierVertex(115, 209, 112, 200, 102, 202);
+bezierVertex(102, 202, 98, 203, 98, 204);
+bezierVertex(98, 204, 96, 204, 93, 203);
+bezierVertex(93, 203, 87, 200, 84, 203);
+bezierVertex(84, 203, 81, 205, 81, 206);
+bezierVertex(81, 206, 80, 209, 75, 206);
+bezierVertex(75, 206, 72, 202, 68, 204);
+bezierVertex(68, 204, 64, 207, 57, 210);
+bezierVertex(57, 210, 54, 215, 48, 215);
+bezierVertex(48, 215, 44, 215, 43, 212);
+bezierVertex(43, 211, 43, 211, 43, 211);
+endShape();
+
+beginShape();
+vertex(128, 236);
+vertex(120, 235);
+bezierVertex(120, 235, 130, 229, 135, 220);
+bezierVertex(135, 220, 137, 225, 138, 228);
+endShape();
+
+beginShape();
+vertex(147, 211);
+bezierVertex(147, 211, 146, 204, 139, 205);
+bezierVertex(139, 205, 136, 207, 130, 205);
+bezierVertex(130, 205, 124, 204, 123, 213);
+bezierVertex(123, 213, 122, 216, 122, 216);
+bezierVertex(122, 216, 120, 202, 127, 202);
+bezierVertex(127, 202, 131, 201, 134, 202);
+bezierVertex(134, 202, 138, 203, 141, 202);
+bezierVertex(141, 202, 151, 201, 151, 210);
+bezierVertex(158, 210, 164, 219, 164, 219);
+bezierVertex(162, 240, 152, 237, 152, 237);
+bezierVertex(149, 236, 147, 218, 147, 218);
+bezierVertex(147, 212, 147, 209, 146, 209);
+endShape();
+
+fill(125, 150, 195);
+beginShape();
+vertex(123, 188);
+bezierVertex(123, 188, 109, 188, 115, 191);
+bezierVertex(115, 191, 123, 191, 125, 190);
+bezierVertex(125, 190, 124, 189, 121, 189);
+endShape();
+
+beginShape();
+vertex(115, 178);
+bezierVertex(115, 178, 116, 182, 120, 181);
+bezierVertex(120, 181, 124, 181, 122, 178);
+bezierVertex(122, 178, 119, 177, 117, 177);
+bezierVertex(117, 177, 115, 177, 115, 179);
+endShape();
+
+beginShape();
+vertex(127, 178);
+bezierVertex(127, 178, 132, 173, 136, 179);
+bezierVertex(136, 179, 136, 181, 133, 181);
+bezierVertex(133, 181, 133, 179, 130, 178);
+bezierVertex(130, 178, 128, 180, 128, 177);
+endShape();
+
+beginShape();
+vertex(158, 182);
+bezierVertex(158, 182, 156, 180, 156, 177);
+bezierVertex(156, 177, 154, 175, 150, 176);
+bezierVertex(150, 176, 150, 173, 152, 173);
+bezierVertex(152, 173, 152, 169, 159, 170);
+bezierVertex(159, 170, 162, 171, 162, 176);
+bezierVertex(162, 176, 163, 181, 162, 184);
+bezierVertex(158, 182, 158, 182, 158, 182);
+endShape();
+
+fill(92, 105, 166);
+beginShape();
+vertex(0, 267);
+vertex(0, 325);
+bezierVertex(0, 325, 3, 319, 6, 323);
+bezierVertex(6, 323, 10, 323, 12, 321);
+bezierVertex(12, 321, 15, 319, 20, 320);
+bezierVertex(20, 320, 20, 316, 27, 317);
+bezierVertex(27, 317, 28, 319, 26, 321);
+bezierVertex(26, 321, 33, 321, 34, 318);
+bezierVertex(34, 318, 36, 317, 39, 319);
+bezierVertex(39, 319, 40, 321, 40, 322);
+bezierVertex(40, 322, 42, 320, 45, 323);
+bezierVertex(45, 323, 51, 320, 51, 317);
+bezierVertex(51, 317, 54, 312, 58, 317);
+bezierVertex(58, 317, 61, 324, 70, 322);
+bezierVertex(70, 322, 77, 299, 63, 292);
+bezierVertex(63, 292, 51, 288, 49, 290);
+bezierVertex(49, 290, 45, 293, 40, 294);
+bezierVertex(40, 294, 27, 293, 28, 289);
+bezierVertex(28, 289, 26, 284, 20, 281);
+bezierVertex(20, 281, 14, 273, 11, 273);
+bezierVertex(11, 273, 7, 273, 3, 273);
+bezierVertex(3, 273, 4, 269, 0, 267);
+endShape();
+
+fill(83, 84, 136);
+beginShape();
+vertex(2, 308);
+bezierVertex(2, 308, 11, 309, 12, 310);
+bezierVertex(12, 310, 17, 309, 15, 309);
+bezierVertex(15, 309, 18, 307, 22, 311);
+bezierVertex(22, 311, 25, 311, 29, 311);
+bezierVertex(29, 311, 28, 313, 23, 313);
+bezierVertex(23, 313, 19, 312, 17, 311);
+bezierVertex(17, 311, 13, 311, 9, 315);
+bezierVertex(9, 315, 6, 320, 4, 317);
+bezierVertex(4, 317, 1, 314, 1, 313);
+bezierVertex(1, 308, 2, 307, 2, 307);
+endShape();
+
+beginShape();
+vertex(31, 307);
+bezierVertex(31, 307, 32, 304, 30, 306);
+bezierVertex(30, 306, 29, 308, 29, 311);
+bezierVertex(29, 311, 30, 311, 33, 312);
+bezierVertex(33, 312, 36, 310, 32, 309);
+bezierVertex(31, 307, 31, 306, 31, 306);
+endShape();
+
+fill(124, 149, 195);
+beginShape();
+vertex(2, 308);
+bezierVertex(2, 308, 9, 309, 11, 310);
+bezierVertex(14, 309, 14, 309, 17, 309);
+bezierVertex(17, 306, 18, 307, 18, 307);
+bezierVertex(22, 306, 24, 306, 24, 306);
+bezierVertex(28, 302, 27, 299, 27, 299);
+bezierVertex(24, 299, 15, 296, 15, 296);
+bezierVertex(10, 295, 3, 308, 3, 308);
+endShape();
+
+fill(132, 217, 243);
+beginShape();
+vertex(53, 304);
+bezierVertex(53, 304, 47, 301, 49, 306);
+bezierVertex(49, 306, 56, 309, 53, 304);
+endShape();
+
+beginShape();
+vertex(56, 301);
+bezierVertex(56, 301, 57, 306, 60, 303);
+bezierVertex(60, 303, 60, 299, 56, 301);
+endShape();
+
+fill(255, 250, 228);
+beginShape();
+vertex(42, 307);
+vertex(46, 307);
+vertex(46, 306);
+vertex(43, 305);
+vertex(43, 306);
+endShape();
+
+beginShape();
+vertex(112, 238);
+vertex(111, 245);
+vertex(132, 240);
+vertex(112, 239);
+endShape();
+
+fill(92, 105, 166);
+beginShape();
+vertex(113, 248);
+bezierVertex(113, 248, 114, 240, 110, 228);
+bezierVertex(110, 228, 104, 225, 101, 228);
+bezierVertex(101, 228, 98, 231, 96, 230);
+bezierVertex(96, 230, 91, 229, 88, 237);
+bezierVertex(87, 237, 84, 239, 84, 240);
+bezierVertex(84, 240, 84, 243, 89, 240);
+bezierVertex(89, 240, 96, 240, 99, 243);
+bezierVertex(99, 243, 96, 257, 109, 254);
+bezierVertex(109, 254, 110, 253, 113, 246);
+bezierVertex(113, 246, 113, 246, 113, 246);
+endShape();
+
+beginShape();
+vertex(84, 253);
+bezierVertex(84, 253, 77, 245, 70, 246);
+bezierVertex(70, 246, 68, 245, 68, 242);
+bezierVertex(68, 242, 66, 237, 63, 237);
+bezierVertex(63, 237, 62, 235, 58, 237);
+bezierVertex(58, 237, 53, 238, 51, 236);
+bezierVertex(51, 236, 46, 232, 43, 239);
+bezierVertex(43, 239, 43, 241, 49, 241);
+bezierVertex(49, 241, 53, 237, 54, 242);
+bezierVertex(54, 242, 51, 252, 55, 253);
+bezierVertex(55, 253, 58, 253, 59, 259);
+bezierVertex(59, 259, 65, 269, 68, 262);
+bezierVertex(68, 262, 71, 258, 69, 253);
+bezierVertex(69, 253, 72, 252, 72, 249);
+bezierVertex(72, 249, 78, 249, 82, 254);
+bezierVertex(79, 257, 77, 256, 76, 259);
+bezierVertex(76, 259, 78, 263, 82, 261);
+bezierVertex(85, 253, 85, 253, 85, 253);
+endShape();
+
+fill(110, 130, 181);
+beginShape();
+vertex(0, 324);
+vertex(1, 358);
+vertex(50, 397);
+vertex(76, 387);
+vertex(68, 323);
+bezierVertex(68, 323, 63, 323, 58, 318);
+bezierVertex(58, 318, 54, 310, 51, 318);
+bezierVertex(51, 318, 49, 326, 44, 322);
+bezierVertex(44, 322, 38, 323, 40, 318);
+bezierVertex(40, 318, 37, 317, 32, 319);
+bezierVertex(32, 319, 29, 325, 25, 321);
+bezierVertex(25, 321, 27, 316, 20, 319);
+bezierVertex(20, 319, 17, 320, 13, 320);
+bezierVertex(13, 320, 7, 326, 1, 325);
+endShape();
+
+fill(125, 150, 195);
+beginShape();
+vertex(0, 347);
+vertex(0, 335);
+bezierVertex(0, 335, 4, 331, 9, 334);
+bezierVertex(9, 334, 12, 334, 12, 334);
+bezierVertex(12, 334, 18, 331, 26, 334);
+bezierVertex(26, 334, 31, 337, 33, 345);
+bezierVertex(33, 345, 28, 341, 23, 340);
+bezierVertex(23, 340, 17, 339, 13, 338);
+bezierVertex(13, 338, 7, 338, 1, 348);
+endShape();
+
+beginShape();
+vertex(26, 352);
+bezierVertex(37, 364, 42, 352, 42, 352);
+bezierVertex(42, 337, 33, 340, 33, 340);
+bezierVertex(30, 342, 25, 347, 26, 354);
+endShape();
+
+fill(186, 232, 205);
+beginShape();
+vertex(30, 349);
+bezierVertex(30, 349, 34, 348, 41, 349);
+bezierVertex(41, 349, 40, 344, 40, 340);
+bezierVertex(40, 340, 38, 343, 36, 346);
+bezierVertex(36, 346, 33, 341, 29, 339);
+bezierVertex(29, 339, 29, 340, 27, 346);
+bezierVertex(27, 346, 33, 351, 32, 349);
+endShape();
+
+beginShape();
+vertex(67, 335);
+bezierVertex(67, 335, 60, 335, 54, 332);
+bezierVertex(54, 332, 50, 331, 49, 331);
+bezierVertex(50, 329, 50, 329, 56, 329);
+bezierVertex(59, 331, 60, 331, 60, 328);
+bezierVertex(60, 328, 62, 323, 71, 325);
+bezierVertex(71, 325, 65, 335, 65, 335);
+endShape();
+
+fill(255, 250, 228);
+beginShape();
+vertex(53, 344);
+bezierVertex(53, 344, 53, 340, 46, 339);
+bezierVertex(46, 339, 42, 337, 48, 336);
+bezierVertex(48, 336, 56, 337, 56, 344);
+bezierVertex(56, 344, 55, 349, 53, 346);
+bezierVertex(53, 346, 53, 343, 53, 343);
+endShape();
+
+beginShape();
+vertex(70, 308);
+bezierVertex(66, 309, 63, 309, 63, 307);
+bezierVertex(63, 307, 60, 306, 59, 311);
+bezierVertex(59, 311, 65, 313, 69, 319);
+bezierVertex(69, 319, 74, 315, 70, 309);
+endShape();
+
+fill(255, 236, 32);
+beginShape();
+vertex(30, 325);
+bezierVertex(30, 325, 28, 323, 26, 326);
+bezierVertex(26, 326, 28, 330, 29, 325);
+endShape();
+
+fill(92, 105, 166);
+beginShape();
+vertex(1, 212);
+vertex(0, 167);
+bezierVertex(0, 167, 6, 167, 9, 163);
+bezierVertex(9, 163, 11, 159, 17, 165);
+bezierVertex(17, 165, 22, 169, 27, 163);
+bezierVertex(27, 163, 32, 160, 36, 167);
+bezierVertex(36, 167, 43, 172, 34, 177);
+bezierVertex(34, 177, 40, 180, 37, 182);
+bezierVertex(37, 182, 41, 184, 41, 184);
+bezierVertex(37, 187, 30, 186, 30, 186);
+bezierVertex(28, 188, 31, 190, 31, 190);
+bezierVertex(36, 192, 33, 193, 33, 193);
+bezierVertex(30, 195, 29, 196, 28, 196);
+bezierVertex(24, 198, 24, 194, 24, 194);
+bezierVertex(20, 191, 14, 194, 14, 194);
+bezierVertex(11, 195, 14, 201, 14, 201);
+bezierVertex(16, 207, 8, 211, 8, 211);
+bezierVertex(5, 209, 2, 212, 2, 212);
+endShape();
+
+beginShape();
+vertex(60, 186);
+bezierVertex(60, 186, 75, 177, 69, 183);
+bezierVertex(69, 183, 42, 198, 52, 189);
+bezierVertex(52, 189, 57, 188, 61, 185);
+endShape();
+
+beginShape();
+vertex(65, 176);
+bezierVertex(65, 176, 73, 174, 77, 172);
+bezierVertex(77, 172, 79, 171, 83, 171);
+bezierVertex(83, 171, 88, 169, 92, 166);
+bezierVertex(92, 166, 84, 168, 81, 169);
+bezierVertex(81, 169, 77, 169, 74, 169);
+bezierVertex(74, 169, 73, 167, 68, 167);
+bezierVertex(68, 167, 72, 168, 72, 170);
+bezierVertex(72, 170, 70, 172, 66, 175);
+bezierVertex(66, 175, 66, 175, 66, 175);
+endShape();
+
+beginShape();
+vertex(51, 176);
+bezierVertex(51, 176, 53, 173, 55, 172);
+bezierVertex(55, 167, 56, 165, 56, 165);
+bezierVertex(60, 166, 62, 169, 64, 171);
+bezierVertex(58, 171, 58, 171, 54, 171);
+bezierVertex(58, 173, 59, 175, 59, 175);
+bezierVertex(57, 177, 51, 177, 51, 177);
+endShape();
+
+beginShape();
+vertex(57, 164);
+bezierVertex(57, 164, 65, 159, 66, 156);
+bezierVertex(66, 156, 66, 151, 70, 149);
+bezierVertex(70, 149, 78, 147, 96, 141);
+bezierVertex(96, 141, 100, 143, 99, 148);
+bezierVertex(99, 148, 95, 150, 89, 153);
+bezierVertex(89, 153, 79, 153, 74, 164);
+bezierVertex(74, 164, 65, 165, 59, 165);
+endShape();
+
+beginShape();
+vertex(97, 157);
+bezierVertex(97, 157, 106, 150, 118, 153);
+bezierVertex(118, 153, 126, 151, 135, 145);
+bezierVertex(135, 145, 121, 158, 117, 156);
+bezierVertex(117, 156, 114, 156, 113, 159);
+bezierVertex(113, 159, 110, 159, 107, 157);
+bezierVertex(107, 157, 105, 156, 97, 157);
+endShape();
+
+beginShape();
+vertex(106, 121);
+bezierVertex(106, 121, 106, 125, 102, 131);
+bezierVertex(102, 131, 101, 136, 104, 138);
+bezierVertex(104, 138, 124, 141, 131, 131);
+bezierVertex(131, 131, 116, 124, 109, 121);
+bezierVertex(106, 122, 106, 122, 106, 122);
+endShape();
+
+beginShape();
+vertex(146, 129);
+bezierVertex(146, 129, 146, 134, 154, 135);
+bezierVertex(154, 135, 155, 147, 152, 152);
+bezierVertex(152, 152, 146, 158, 138, 157);
+bezierVertex(138, 157, 148, 160, 156, 152);
+bezierVertex(156, 152, 160, 147, 161, 136);
+bezierVertex(161, 136, 158, 131, 145, 129);
+endShape();
+
+fill(174, 233, 228);
+beginShape();
+vertex(154, 134);
+bezierVertex(154, 134, 150, 134, 148, 130);
+bezierVertex(148, 130, 143, 130, 142, 128);
+bezierVertex(142, 128, 145, 124, 148, 123);
+bezierVertex(148, 123, 158, 123, 154, 133);
+endShape();
+
+beginShape();
+vertex(176, 126);
+bezierVertex(176, 126, 189, 128, 187, 123);
+bezierVertex(187, 123, 185, 119, 176, 122);
+bezierVertex(176, 122, 173, 125, 178, 126);
+endShape();
+
+beginShape();
+vertex(135, 127);
+bezierVertex(135, 127, 136, 124, 140, 127);
+bezierVertex(140, 127, 138, 132, 132, 131);
+bezierVertex(132, 131, 127, 131, 128, 127);
+bezierVertex(128, 127, 131, 125, 132, 128);
+bezierVertex(132, 128, 134, 129, 135, 127);
+endShape();
+
+beginShape();
+vertex(128, 129);
+bezierVertex(128, 129, 124, 127, 122, 125);
+bezierVertex(122, 125, 110, 125, 118, 127);
+bezierVertex(118, 127, 115, 129, 118, 131);
+bezierVertex(118, 131, 116, 131, 114, 132);
+bezierVertex(114, 132, 113, 134, 106, 134);
+bezierVertex(106, 134, 104, 137, 109, 137);
+bezierVertex(109, 137, 115, 137, 118, 136);
+bezierVertex(118, 136, 123, 136, 123, 133);
+bezierVertex(123, 133, 126, 131, 129, 130);
+bezierVertex(129, 130, 127, 129, 128, 130);
+endShape();
+
+beginShape();
+vertex(105, 133);
+bezierVertex(105, 133, 110, 126, 107, 127);
+bezierVertex(107, 127, 102, 130, 97, 131);
+bezierVertex(97, 130, 104, 123, 99, 123);
+bezierVertex(99, 123, 93, 127, 87, 127);
+bezierVertex(87, 127, 77, 126, 84, 130);
+bezierVertex(84, 130, 88, 131, 92, 129);
+bezierVertex(92, 129, 87, 137, 85, 138);
+bezierVertex(85, 138, 81, 139, 78, 142);
+bezierVertex(78, 142, 83, 143, 81, 146);
+bezierVertex(81, 146, 74, 147, 75, 150);
+bezierVertex(75, 150, 69, 149, 74, 152);
+bezierVertex(74, 152, 82, 151, 83, 148);
+bezierVertex(83, 148, 90, 148, 93, 144);
+bezierVertex(93, 144, 94, 142, 98, 142);
+bezierVertex(98, 142, 107, 138, 106, 132);
+endShape();
+
+beginShape();
+vertex(91, 152);
+bezierVertex(91, 152, 82, 167, 68, 169);
+bezierVertex(68, 169, 75, 169, 68, 173);
+bezierVertex(68, 174, 62, 181, 53, 182);
+bezierVertex(53, 182, 42, 185, 38, 184);
+bezierVertex(38, 184, 38, 182, 42, 181);
+bezierVertex(42, 181, 47, 177, 54, 177);
+bezierVertex(54, 177, 58, 174, 58, 174);
+bezierVertex(55, 171, 63, 170, 63, 170);
+bezierVertex(62, 167, 57, 166, 57, 166);
+bezierVertex(55, 163, 64, 163, 64, 163);
+bezierVertex(66, 161, 73, 161, 73, 161);
+bezierVertex(71, 153, 80, 152, 80, 152);
+bezierVertex(84, 152, 91, 152, 91, 152);
+endShape();
+
+beginShape();
+vertex(42, 185);
+bezierVertex(42, 185, 39, 185, 37, 188);
+bezierVertex(37, 188, 31, 187, 36, 190);
+bezierVertex(36, 190, 42, 188, 46, 185);
+bezierVertex(45, 186, 43, 185, 40, 185);
+endShape();
+
+fill(110, 130, 181);
+beginShape();
+vertex(99, 122);
+bezierVertex(99, 122, 94, 128, 83, 127);
+bezierVertex(83, 127, 80, 129, 85, 130);
+bezierVertex(85, 130, 91, 130, 91, 130);
+bezierVertex(86, 132, 87, 136, 87, 136);
+bezierVertex(84, 137, 82, 138, 82, 138);
+bezierVertex(81, 140, 76, 144, 79, 145);
+bezierVertex(71, 149, 66, 150, 66, 150);
+bezierVertex(65, 154, 65, 155, 62, 154);
+bezierVertex(60, 156, 60, 156, 57, 155);
+bezierVertex(53, 156, 53, 156, 64, 147);
+bezierVertex(74, 145, 74, 145, 79, 140);
+bezierVertex(78, 139, 78, 139, 77, 138);
+bezierVertex(73, 141, 73, 141, 72, 140);
+bezierVertex(72, 140, 69, 143, 60, 143);
+bezierVertex(60, 143, 68, 142, 71, 138);
+bezierVertex(71, 138, 73, 135, 74, 134);
+bezierVertex(74, 134, 71, 134, 66, 137);
+bezierVertex(66, 137, 62, 139, 56, 136);
+bezierVertex(56, 136, 63, 136, 70, 134);
+bezierVertex(70, 134, 69, 131, 78, 130);
+bezierVertex(78, 130, 77, 127, 71, 123);
+bezierVertex(71, 124, 74, 123, 73, 120);
+bezierVertex(73, 120, 80, 119, 81, 122);
+bezierVertex(81, 122, 84, 123, 89, 119);
+bezierVertex(89, 119, 91, 118, 95, 119);
+bezierVertex(95, 119, 98, 122, 98, 122);
+endShape();
+
+fill(82, 86, 136);
+beginShape();
+vertex(21, 140);
+bezierVertex(21, 140, 25, 145, 26, 151);
+bezierVertex(26, 151, 29, 155, 33, 148);
+bezierVertex(33, 148, 33, 144, 34, 143);
+bezierVertex(33, 143, 34, 140, 38, 139);
+bezierVertex(38, 139, 43, 138, 41, 127);
+bezierVertex(41, 127, 27, 125, 21, 142);
+endShape();
+
+fill(78, 78, 116);
+beginShape();
+vertex(25, 135);
+bezierVertex(25, 135, 30, 141, 36, 139);
+bezierVertex(36, 139, 43, 135, 42, 127);
+bezierVertex(42, 127, 38, 125, 26, 136);
+endShape();
+
+beginShape();
+vertex(6, 137);
+bezierVertex(6, 137, 11, 151, 1, 138);
+bezierVertex(1, 138, 2, 144, 0, 130);
+bezierVertex(3, 112, 10, 112, 18, 114);
+bezierVertex(15, 123, 6, 138, 6, 138);
+endShape();
+
+beginShape();
+vertex(48, 101);
+vertex(50, 112);
+vertex(12, 121);
+vertex(17, 116);
+vertex(5, 109);
+vertex(1, 95);
+vertex(14, 81);
+vertex(48, 102);
+endShape();
+
+beginShape();
+vertex(98, 101);
+bezierVertex(98, 101, 101, 109, 107, 102);
+bezierVertex(107, 102, 112, 94, 105, 91);
+bezierVertex(105, 91, 102, 89, 97, 89);
+bezierVertex(97, 89, 92, 94, 88, 91);
+bezierVertex(88, 91, 88, 87, 81, 88);
+bezierVertex(81, 88, 78, 88, 72, 86);
+bezierVertex(72, 86, 70, 83, 67, 83);
+bezierVertex(67, 83, 58, 86, 64, 95);
+bezierVertex(64, 95, 71, 92, 75, 94);
+bezierVertex(75, 94, 82, 91, 84, 93);
+bezierVertex(84, 93, 82, 103, 88, 101);
+bezierVertex(88, 101, 94, 95, 98, 102);
+endShape();
+
+fill(82, 86, 136);
+beginShape();
+vertex(111, 114);
+bezierVertex(111, 114, 109, 110, 110, 106);
+bezierVertex(110, 106, 102, 112, 97, 111);
+bezierVertex(97, 111, 94, 110, 93, 105);
+bezierVertex(93, 105, 87, 112, 83, 109);
+bezierVertex(83, 109, 77, 106, 78, 103);
+bezierVertex(78, 103, 78, 99, 72, 98);
+bezierVertex(72, 98, 69, 100, 64, 97);
+bezierVertex(64, 97, 45, 10, 55, 95);
+bezierVertex(49, 122, 50, 180, 50, 121);
+bezierVertex(57, 126, 59, 121, 59, 121);
+bezierVertex(59, 118, 66, 123, 66, 123);
+bezierVertex(69, 128, 72, 122, 72, 122);
+bezierVertex(73, 118, 82, 120, 82, 120);
+bezierVertex(85, 124, 88, 119, 88, 119);
+bezierVertex(90, 115, 94, 119, 94, 119);
+bezierVertex(99, 122, 100, 123, 100, 123);
+bezierVertex(104, 125, 98, 129, 98, 129);
+bezierVertex(103, 131, 106, 125, 106, 125);
+bezierVertex(106, 119, 105, 118, 105, 118);
+bezierVertex(105, 116, 110, 113, 110, 113);
+endShape();
+
+fill(255);
+beginShape();
+vertex(65, 113);
+bezierVertex(65, 113, 62, 120, 70, 119);
+bezierVertex(70, 119, 73, 117, 70, 112);
+bezierVertex(70, 112, 68, 112, 65, 114);
+endShape();
+
+fill(78, 78, 116);
+beginShape();
+vertex(41, 156);
+bezierVertex(41, 156, 30, 157, 38, 162);
+bezierVertex(38, 162, 42, 162, 40, 156);
+endShape();
+
+beginShape();
+vertex(55, 146);
+bezierVertex(55, 146, 52, 150, 58, 147);
+bezierVertex(58, 147, 60, 144, 53, 147);
+endShape();
+
+fill(255, 236, 32);
+stroke(255, 236, 32);
+strokeWeight(2);
+beginShape();
+vertex(38, 299);
+bezierVertex(38, 299, 38, 292, 37, 302);
+bezierVertex(37, 302, 38, 307, 38, 298);
+bezierVertex(37, 299, 37, 299, 37, 299);
+endShape();
+
+beginShape();
+vertex(57, 277);
+bezierVertex(57, 277, 63, 277, 57, 281);
+bezierVertex(57, 281, 54, 280, 58, 277);
+endShape();
+
+beginShape();
+vertex(41, 264);
+bezierVertex(41, 264, 44, 271, 49, 267);
+bezierVertex(49, 267, 52, 263, 47, 260);
+bezierVertex(47, 260, 44, 260, 41, 265);
+endShape();
+
+beginShape();
+vertex(62, 250);
+bezierVertex(62, 250, 60, 255, 64, 252);
+bezierVertex(64, 252, 64, 248, 61, 251);
+endShape();
+
+beginShape();
+vertex(15, 237);
+bezierVertex(15, 237, 14, 242, 18, 239);
+bezierVertex(18, 239, 18, 236, 15, 238);
+endShape();
+
+beginShape();
+vertex(54, 220);
+bezierVertex(54, 220, 54, 226, 58, 222);
+bezierVertex(58, 222, 58, 217, 53, 222);
+endShape();
+
+beginShape();
+vertex(82, 209);
+bezierVertex(82, 209, 80, 213, 85, 211);
+bezierVertex(85, 211, 85, 209, 80, 210);
+endShape();
+
+beginShape();
+vertex(115, 198);
+bezierVertex(115, 198, 115, 204, 118, 200);
+bezierVertex(118, 200, 118, 194, 115, 200);
+endShape();
+
+beginShape();
+vertex(78, 156);
+bezierVertex(78, 156, 79, 162, 82, 158);
+bezierVertex(82, 158, 82, 153, 77, 157);
+endShape();
+
+beginShape();
+vertex(45, 159);
+bezierVertex(45, 159, 46, 162, 48, 160);
+bezierVertex(48, 160, 47, 156, 46, 159);
+endShape();
+
+beginShape();
+vertex(128, 156);
+bezierVertex(128, 156, 128, 164, 130, 158);
+bezierVertex(130, 158, 130, 156, 128, 157);
+endShape();
+
+beginShape();
+vertex(119, 144);
+bezierVertex(119, 144, 119, 147, 123, 146);
+bezierVertex(123, 146, 122, 144, 118, 144);
+endShape();
+
+beginShape();
+vertex(145, 141);
+bezierVertex(145, 141, 142, 142, 145, 143);
+bezierVertex(145, 143, 147, 143, 143, 141);
+endShape();
+
+beginShape();
+vertex(140, 112);
+bezierVertex(140, 112, 138, 114, 141, 114);
+bezierVertex(141, 114, 144, 114, 139, 112);
+endShape();
+
+beginShape();
+vertex(164, 94);
+bezierVertex(164, 94, 161, 95, 166, 96);
+bezierVertex(166, 96, 166, 94, 162, 94);
+endShape();
+
+beginShape();
+vertex(150, 75);
+bezierVertex(150, 75, 148, 72, 148, 76);
+bezierVertex(148, 76, 149, 78, 150, 75);
+endShape();
+noStroke();
+
+//starz in hair
+rect(101, 163, 0, 0.001, -13);
+
+rect(128, 100, 0, 0.001, -9);
+
+fill(119, 209, 238);
+beginShape();
+vertex(208, 271);
+bezierVertex(208, 271, 213, 260, 220, 261);
+bezierVertex(220, 261, 227, 261, 236, 261);
+bezierVertex(236, 261, 231, 267, 226, 271);
+bezierVertex(226, 271, 223, 272, 231, 273);
+bezierVertex(231, 273, 236, 273, 236, 273);
+bezierVertex(236, 272, 238, 270, 238, 267);
+bezierVertex(238, 267, 241, 271, 248, 269);
+bezierVertex(248, 269, 255, 267, 259, 265);
+bezierVertex(259, 265, 259, 258, 263, 255);
+bezierVertex(263, 255, 267, 255, 267, 255);
+bezierVertex(267, 255, 267, 265, 275, 262);
+bezierVertex(275, 262, 278, 260, 284, 256);
+bezierVertex(284, 256, 306, 227, 343, 273);
+bezierVertex(343, 273, 342, 284, 343, 290);
+bezierVertex(343, 290, 280, 291, 268, 296);
+bezierVertex(267, 295, 259, 294, 259, 297);
+bezierVertex(259, 297, 248, 296, 248, 302);
+bezierVertex(248, 302, 250, 307, 254, 311);
+bezierVertex(254, 311, 245, 308, 241, 316);
+bezierVertex(241, 316, 238, 325, 230, 328);
+bezierVertex(230, 328, 224, 331, 219, 331);
+bezierVertex(219, 331, 212, 289, 208, 271);
+endShape();
+
+fill(132, 217, 243);
+beginShape();
+vertex(268, 292);
+bezierVertex(268, 292, 254, 287, 255, 293);
+bezierVertex(255, 293, 253, 297, 250, 292);
+bezierVertex(250, 292, 248, 287, 239, 288);
+bezierVertex(239, 288, 237, 290, 235, 298);
+bezierVertex(235, 298, 233, 303, 228, 300);
+bezierVertex(228, 300, 220, 300, 211, 310);
+bezierVertex(211, 310, 211, 317, 220, 311);
+bezierVertex(220, 311, 223, 307, 228, 310);
+bezierVertex(228, 310, 239, 311, 242, 310);
+bezierVertex(242, 310, 246, 307, 254, 307);
+bezierVertex(254, 307, 252, 300, 268, 292);
+endShape();
+
+fill(174, 233, 228);
+beginShape();
+vertex(233, 294);
+bezierVertex(233, 294, 228, 288, 222, 291);
+bezierVertex(222, 291, 219, 295, 215, 299);
+bezierVertex(215, 300, 219, 299, 220, 298);
+bezierVertex(224, 293, 228, 295, 228, 295);
+bezierVertex(235, 299, 233, 294, 233, 294);
+endShape();
+
+beginShape();
+vertex(290, 263);
+bezierVertex(290, 263, 278, 261, 276, 263);
+bezierVertex(276, 263, 271, 261, 264, 266);
+bezierVertex(264, 266, 258, 272, 254, 270);
+bezierVertex(254, 270, 250, 273, 245, 278);
+bezierVertex(245, 278, 237, 279, 234, 287);
+bezierVertex(234, 287, 249, 279, 265, 282);
+bezierVertex(265, 282, 289, 264, 289, 264);
+bezierVertex(288, 263, 288, 263, 288, 263);
+endShape();
+
+beginShape();
+vertex(235, 313);
+bezierVertex(235, 313, 244, 313, 244, 308);
+bezierVertex(244, 308, 238, 311, 234, 310);
+bezierVertex(234, 310, 226, 309, 228, 313);
+bezierVertex(228, 313, 229, 318, 226, 316);
+bezierVertex(226, 316, 226, 320, 226, 322);
+bezierVertex(226, 322, 223, 322, 217, 322);
+bezierVertex(217, 322, 218, 330, 221, 329);
+bezierVertex(221, 329, 228, 325, 228, 319);
+bezierVertex(228, 319, 231, 317, 234, 314);
+bezierVertex(234, 314, 242, 315, 245, 310);
+endShape();
+
+fill(91, 104, 166);
+beginShape();
+vertex(346, 274);
+bezierVertex(346, 274, 341, 277, 343, 281);
+bezierVertex(343, 281, 340, 282, 338, 291);
+bezierVertex(338, 291, 319, 313, 345, 324);
+bezierVertex(345, 324, 374, 305, 345, 274);
+endShape();
+
+fill(125, 150, 195);
+beginShape();
+vertex(216, 270);
+bezierVertex(216, 270, 214, 275, 219, 274);
+bezierVertex(219, 274, 225, 270, 219, 269);
+bezierVertex(219, 269, 217, 270, 216, 271);
+endShape();
+
+beginShape();
+vertex(225, 276);
+bezierVertex(225, 276, 217, 283, 222, 282);
+bezierVertex(222, 282, 236, 274, 228, 276);
+bezierVertex(228, 276, 225, 277, 223, 278);
+bezierVertex(223, 277, 223, 277, 223, 277);
+endShape();
+
+beginShape();
+vertex(354, 293);
+bezierVertex(354, 293, 346, 295, 345, 298);
+bezierVertex(345, 298, 346, 305, 350, 309);
+bezierVertex(351, 309, 353, 293, 353, 293);
+endShape();
+
+fill(92, 105, 166);
+beginShape();
+vertex(268, 294);
+bezierVertex(268, 294, 260, 293, 259, 296);
+bezierVertex(259, 296, 251, 295, 249, 300);
+bezierVertex(249, 300, 247, 305, 254, 310);
+bezierVertex(254, 310, 254, 314, 252, 315);
+bezierVertex(252, 315, 251, 316, 248, 316);
+bezierVertex(248, 316, 249, 321, 246, 324);
+bezierVertex(246, 324, 253, 324, 254, 319);
+bezierVertex(254, 319, 254, 315, 260, 314);
+bezierVertex(260, 314, 259, 311, 260, 303);
+bezierVertex(260, 303, 263, 306, 262, 305);
+bezierVertex(264, 300, 270, 299, 270, 299);
+bezierVertex(268, 295, 268, 295, 268, 295);
+endShape();
+
+beginShape();
+vertex(238, 333);
+bezierVertex(238, 333, 239, 338, 238, 343);
+bezierVertex(238, 343, 242, 337, 248, 336);
+bezierVertex(248, 336, 241, 342, 239, 346);
+bezierVertex(239, 346, 237, 345, 235, 337);
+bezierVertex(235, 337, 237, 333, 237, 333);
+endShape();
+
+fill(92, 105, 166);
+beginShape();
+vertex(211, 234);
+bezierVertex(211, 234, 206, 241, 202, 239);
+bezierVertex(202, 239, 202, 235, 211, 235);
+endShape();
+
+beginShape();
+vertex(213, 233);
+bezierVertex(213, 233, 215, 236, 216, 239);
+bezierVertex(216, 239, 216, 241, 227, 239);
+bezierVertex(227, 239, 231, 236, 247, 240);
+bezierVertex(252, 240, 257, 235, 257, 235);
+bezierVertex(252, 230, 249, 230, 249, 230);
+bezierVertex(245, 230, 243, 227, 243, 227);
+bezierVertex(241, 225, 236, 227, 236, 227);
+bezierVertex(232, 232, 224, 232, 224, 232);
+bezierVertex(218, 233, 213, 234, 217, 231);
+endShape();
+
+beginShape();
+vertex(208, 249);
+bezierVertex(208, 249, 214, 250, 216, 247);
+bezierVertex(216, 247, 220, 245, 222, 247);
+bezierVertex(222, 247, 216, 247, 215, 252);
+bezierVertex(215, 252, 210, 256, 206, 256);
+bezierVertex(204, 257, 201, 254, 207, 254);
+bezierVertex(207, 254, 210, 252, 210, 250);
+endShape();
+
+beginShape();
+vertex(236, 246);
+bezierVertex(238, 246, 238, 244, 238, 244);
+bezierVertex(241, 247, 236, 249, 236, 249);
+bezierVertex(232, 248, 238, 247, 238, 247);
+endShape();
+
+beginShape();
+vertex(244, 245);
+bezierVertex(256, 246, 250, 244, 250, 244);
+bezierVertex(242, 243, 245, 245, 245, 245);
+endShape();
+
+beginShape();
+vertex(253, 249);
+bezierVertex(253, 249, 260, 249, 258, 248);
+bezierVertex(258, 248, 251, 247, 254, 249);
+endShape();
+
+fill(110, 130, 181);
+beginShape();
+vertex(270, 248);
+bezierVertex(270, 248, 260, 257, 258, 251);
+bezierVertex(258, 251, 252, 251, 256, 248);
+bezierVertex(256, 248, 263, 250, 261, 245);
+bezierVertex(261, 245, 264, 243, 272, 248);
+endShape();
+
+beginShape();
+vertex(242, 227);
+bezierVertex(242, 227, 247, 225, 252, 226);
+bezierVertex(252, 226, 256, 223, 246, 224);
+bezierVertex(246, 224, 239, 225, 236, 226);
+bezierVertex(236, 226, 231, 226, 227, 226);
+bezierVertex(227, 226, 229, 232, 234, 230);
+bezierVertex(234, 230, 240, 229, 242, 226);
+endShape();
+
+beginShape();
+vertex(225, 224);
+bezierVertex(225, 224, 227, 221, 235, 222);
+bezierVertex(235, 222, 241, 221, 236, 220);
+bezierVertex(236, 220, 229, 219, 221, 220);
+bezierVertex(221, 220, 220, 222, 219, 226);
+bezierVertex(220, 227, 226, 223, 226, 223);
+endShape();
+
+beginShape();
+vertex(234, 217);
+bezierVertex(234, 217, 239, 216, 243, 211);
+bezierVertex(243, 211, 241, 209, 239, 212);
+bezierVertex(239, 212, 234, 215, 233, 218);
+bezierVertex(233, 218, 238, 215, 238, 215);
+endShape();
+
+fill(174, 233, 228);
+beginShape();
+vertex(251, 189);
+bezierVertex(251, 189, 246, 190, 240, 193);
+bezierVertex(240, 193, 248, 188, 245, 182);
+bezierVertex(245, 182, 242, 188, 233, 195);
+bezierVertex(233, 195, 227, 198, 222, 203);
+bezierVertex(222, 203, 223, 200, 222, 197);
+bezierVertex(221, 193, 220, 199, 218, 206);
+bezierVertex(212, 218, 202, 220, 202, 220);
+bezierVertex(199, 221, 199, 226, 199, 226);
+bezierVertex(193, 226, 181, 226, 181, 226);
+bezierVertex(179, 224, 179, 223, 179, 223);
+bezierVertex(181, 215, 175, 211, 175, 211);
+bezierVertex(173, 211, 168, 212, 168, 212);
+bezierVertex(184, 242, 199, 246, 199, 246);
+bezierVertex(208, 243, 203, 242, 203, 242);
+bezierVertex(200, 241, 200, 241, 204, 238);
+bezierVertex(204, 235, 206, 234, 212, 235);
+bezierVertex(212, 235, 226, 235, 227, 232);
+bezierVertex(227, 232, 232, 232, 230, 231);
+bezierVertex(230, 231, 239, 231, 241, 227);
+bezierVertex(240, 227, 237, 227, 232, 230);
+bezierVertex(232, 230, 230, 230, 228, 230);
+bezierVertex(228, 230, 225, 223, 219, 225);
+bezierVertex(219, 225, 214, 226, 207, 233);
+bezierVertex(207, 233, 206, 231, 209, 228);
+bezierVertex(209, 228, 213, 222, 215, 222);
+bezierVertex(215, 222, 222, 222, 222, 218);
+bezierVertex(222, 218, 227, 217, 230, 215);
+bezierVertex(230, 215, 241, 209, 243, 208);
+bezierVertex(243, 208, 246, 207, 251, 207);
+bezierVertex(251, 207, 251, 205, 246, 203);
+bezierVertex(246, 203, 244, 203, 241, 201);
+bezierVertex(241, 201, 241, 204, 237, 207);
+bezierVertex(237, 207, 232, 210, 231, 210);
+bezierVertex(231, 210, 229, 208, 231, 206);
+bezierVertex(231, 206, 235, 205, 233, 204);
+bezierVertex(233, 204, 232, 200, 230, 204);
+bezierVertex(230, 204, 227, 209, 218, 211);
+bezierVertex(218, 211, 220, 204, 230, 201);
+bezierVertex(230, 201, 236, 199, 242, 195);
+bezierVertex(242, 195, 253, 194, 259, 193);
+bezierVertex(259, 191, 251, 189, 251, 189);
+endShape();
+
+beginShape();
+vertex(229, 235);
+bezierVertex(229, 235, 223, 243, 237, 242);
+bezierVertex(237, 242, 244, 243, 245, 241);
+bezierVertex(245, 241, 246, 238, 248, 241);
+bezierVertex(248, 241, 250, 244, 256, 244);
+bezierVertex(256, 244, 267, 244, 255, 237);
+bezierVertex(255, 237, 252, 238, 257, 233);
+bezierVertex(257, 233, 253, 233, 250, 237);
+bezierVertex(250, 237, 247, 231, 244, 234);
+bezierVertex(244, 234, 243, 238, 243, 238);
+bezierVertex(242, 237, 241, 231, 228, 235);
+endShape();
+
+fill(80, 95, 156);
+beginShape();
+vertex(188, 201);
+bezierVertex(188, 201, 170, 201, 170, 207);
+bezierVertex(170, 207, 166, 212, 170, 211);
+bezierVertex(170, 211, 178, 208, 179, 220);
+bezierVertex(179, 220, 190, 221, 196, 217);
+bezierVertex(196, 217, 200, 211, 200, 205);
+bezierVertex(187, 201, 187, 201, 187, 201);
+endShape();
+
+fill(82, 86, 136);
+beginShape();
+vertex(205, 207);
+bezierVertex(205, 207, 202, 209, 204, 212);
+bezierVertex(203, 212, 196, 216, 193, 222);
+bezierVertex(193, 222, 198, 221, 198, 225);
+bezierVertex(198, 225, 200, 218, 205, 219);
+bezierVertex(205, 219, 211, 216, 217, 208);
+bezierVertex(217, 208, 218, 202, 219, 195);
+bezierVertex(219, 195, 212, 197, 204, 208);
+endShape();
+
+fill(78, 78, 116);
+stroke(78, 78, 116);
+beginShape();
+vertex(247, 217);
+bezierVertex(247, 217, 242, 219, 247, 220);
+bezierVertex(247, 220, 253, 219, 245, 218);
+endShape();
+
+noStroke();
+beginShape();
+vertex(191, 225);
+bezierVertex(191, 225, 197, 220, 190, 215);
+bezierVertex(190, 215, 181, 213, 180, 219);
+bezierVertex(180, 219, 177, 224, 183, 225);
+bezierVertex(183, 225, 190, 225, 192, 224);
+endShape();
+
+beginShape();
+vertex(188, 201);
+bezierVertex(188, 201, 182, 206, 188, 210);
+bezierVertex(188, 210, 195, 215, 200, 207);
+bezierVertex(200, 207, 193, 203, 188, 201);
+endShape();
+
+fill(78, 78, 116);
+beginShape();
+vertex(253, 195);
+bezierVertex(246, 194, 237, 197, 237, 197);
+bezierVertex(228, 203, 235, 204, 235, 204);
+bezierVertex(238, 198, 246, 197, 246, 197);
+bezierVertex(245, 204, 248, 204, 248, 204);
+bezierVertex(268, 211, 252, 195, 252, 195);
+endShape();
+
+fill(109, 129, 180);
+beginShape();
+vertex(303, 134);
+bezierVertex(303, 134, 296, 137, 296, 140);
+bezierVertex(296, 140, 287, 136, 284, 143);
+bezierVertex(285, 142, 281, 142, 276, 150);
+bezierVertex(276, 150, 282, 153, 275, 156);
+bezierVertex(275, 156, 268, 153, 261, 152);
+bezierVertex(261, 152, 258, 154, 256, 157);
+bezierVertex(256, 157, 257, 162, 252, 165);
+bezierVertex(252, 165, 261, 163, 258, 158);
+bezierVertex(258, 158, 261, 154, 267, 155);
+bezierVertex(267, 155, 267, 158, 266, 165);
+bezierVertex(266, 167, 281, 182, 311, 175);
+bezierVertex(317, 164, 302, 134, 302, 134);
+endShape();
+
+fill(92, 105, 166);
+beginShape();
+vertex(301, 150);
+bezierVertex(301, 150, 292, 146, 287, 148);
+bezierVertex(287, 148, 284, 144, 279, 149);
+bezierVertex(279, 149, 265, 148, 272, 151);
+bezierVertex(272, 151, 286, 153, 275, 154);
+bezierVertex(275, 154, 271, 153, 268, 153);
+bezierVertex(268, 153, 264, 154, 270, 156);
+bezierVertex(270, 156, 262, 164, 262, 165);
+bezierVertex(276, 162, 287, 157, 287, 157);
+bezierVertex(292, 160, 297, 161, 297, 161);
+bezierVertex(301, 150, 301, 150, 301, 150);
+endShape();
+
+beginShape();
+vertex(279, 142);
+bezierVertex(279, 142, 272, 145, 280, 145);
+bezierVertex(280, 145, 287, 144, 279, 142);
+endShape();
+
+fill(255, 236, 32);
+beginShape();
+vertex(243, 261);
+bezierVertex(243, 261, 244, 267, 245, 262);
+bezierVertex(245, 262, 245, 257, 244, 262);
+endShape();
+
+beginShape();
+vertex(189, 212);
+bezierVertex(189, 212, 179, 212, 186, 215);
+bezierVertex(186, 215, 197, 216, 187, 212);
+endShape();
+
+beginShape();
+vertex(240, 219);
+bezierVertex(240, 219, 239, 210, 238, 221);
+bezierVertex(238, 221, 238, 225, 241, 217);
+endShape();
+
+beginShape();
+vertex(221, 223);
+bezierVertex(221, 223, 221, 215, 219, 224);
+bezierVertex(219, 224, 220, 227, 222, 222);
+endShape();
+
+beginShape();
+vertex(245, 172);
+bezierVertex(245, 172, 244, 163, 243, 172);
+bezierVertex(243, 172, 244, 180, 246, 170);
+endShape();
+
+beginShape();
+vertex(268, 149);
+bezierVertex(268, 149, 266, 140, 265, 150);
+bezierVertex(265, 150, 267, 156, 268, 148);
+endShape();
+
+beginShape();
+vertex(280, 120);
+bezierVertex(280, 120, 279, 115, 275, 120);
+bezierVertex(275, 120, 279, 125, 280, 118);
+endShape();
+
+beginShape();
+vertex(255, 108);
+bezierVertex(255, 108, 247, 107, 255, 105);
+bezierVertex(255, 105, 261, 106, 255, 108);
+endShape();
+
+beginShape();
+vertex(235, 105);
+bezierVertex(235, 105, 234, 96, 232, 106);
+bezierVertex(232, 106, 234, 110, 235, 104);
+endShape();
+
+rect(260, 128, 0, 0.001, -9);
+
+vertex(228, 252);
+rect(228, 252, 0, 0.001, -12);
+
+//blur the hairdo
+filter(BLUR);
+
+//get the hairdo texture
+var txture = get();
+//}
+
+//masked shading under chin
+background(0);
+fill(255);
+beginShape();
+vertex(159, 183);
+bezierVertex(159, 183, 164, 186, 166, 194);
+bezierVertex(166, 194, 168, 198, 170, 199);
+bezierVertex(170, 199, 173, 196, 176, 196);
+bezierVertex(176, 196, 174, 194, 170, 190);
+bezierVertex(170, 190, 166, 186, 164, 181);
+bezierVertex(164, 181, 161, 179, 160, 180);
+bezierVertex(160, 180, 160, 181, 159, 183);
+endShape();
+
+//get shape
+var chinsha = get();
+
+//gradient texture for chin shading
+background(255);
+
+//left color
+var startColor = color(222, 133, 122);
+
+//right color
+var endColor = color(252, 206, 181);
+
+//stroke
+var lineWidth = 1;
+strokeWeight(lineWidth);
+
+//draw gradient
+for (var i = 0; i <= 30; i += lineWidth){ 
+    stroke(lerpColor(startColor, endColor, i/30));
+    line(150 + i, 180, 150 + i, 200);
+}
+
+//get a copy of image
+var chintex = get();
+
+//shirt leftmost masking shape
+background(0); 
+fill(255);
+beginShape();
+vertex(124, 229);
+bezierVertex(124, 229, 97, 229, 78, 257);
+bezierVertex(78, 257, -66, 271, 70, 277);
+bezierVertex(70, 277, -74, 282, 67, 286);
+bezierVertex(67, 286, 64, 292, 67, 302);
+bezierVertex(67, 302, 38, 317, 67, 325);
+bezierVertex(67, 325, 44, 347, 66, 344);
+bezierVertex(66, 344, 70, 348, 70, 342);
+bezierVertex(70, 342, 78, 397, 73, 350);
+bezierVertex(73, 350, 76, 384, 84, 393);
+bezierVertex(84, 393, 85, 398, 87, 401);
+vertex(264, 401);
+bezierVertex(264, 401, 267, 401, 268, 401);
+bezierVertex(268, 401, 256, 396, 252, 392);
+bezierVertex(252, 392, 244, 383, 237, 389);
+bezierVertex(237, 389, 233, 388, 236, 398);
+bezierVertex(236, 398, 225, 398, 225, 398);
+bezierVertex(222, 391, 215, 390, 215, 390);
+bezierVertex(212, 394, 211, 401, 211, 401);
+vertex(156, 401);
+bezierVertex(156, 398, 145, 392, 136, 387);
+bezierVertex(136, 387, 147, 386, 159, 382);
+bezierVertex(159, 382, 147, 377, 146, 382);
+bezierVertex(146, 382, 129, 379, 115, 393);
+bezierVertex(115, 393, 108, 398, 104, 396);
+bezierVertex(104, 396, 93, 392, 90, 376);
+bezierVertex(90, 376, 87, 371, 85, 365);
+bezierVertex(85, 365, 80, 351, 93, 355);
+bezierVertex(93, 355, 96, 356, 96, 356);
+bezierVertex(96, 356, 82, 347, 78, 337);
+bezierVertex(78, 337, 76, 334, 77, 315);
+bezierVertex(77, 315, 77, 311, 84, 316);
+bezierVertex(84, 316, 91, 320, 93, 322);
+bezierVertex(93, 322, 81, 305, 76, 293);
+bezierVertex(76, 293, 73, 288, 76, 285);
+bezierVertex(76, 285, 84, 279, 101, 268);
+bezierVertex(101, 268, 85, 270, 74, 276);
+bezierVertex(75, 274, 86, 243, 107, 235);
+bezierVertex(107, 235, 112, 233, 123, 229);
+endShape();
+
+//get copy of image
+var leftshirtsha = get();
+
+//shirt gradient texture
+background(255);
+noStroke();
+
+//the first color
+var c1 = color(182, 224, 255);
+
+//the second color
+var c2 = color(96, 145, 227);
+
+//draws the gradient
+for(var i = 0; i < 200; i++) {
+    fill(lerpColor(c1, c2, i/200));
+    rect(25, 200 + i, 300, 1);
+}
+
+//get image
+var leftshirttex = get();
+
+//2nd gradient the right one on shirt
+background(0);
+fill(255);
+beginShape();
+vertex(152, 312);
+bezierVertex(152, 312, 162, 322, 167, 329);
+bezierVertex(167, 329, 171, 333, 180, 330);
+bezierVertex(180, 330, 188, 325, 198, 324);
+bezierVertex(211, 328, 219, 340, 219, 340);
+bezierVertex(238, 358, 236, 372, 236, 372);
+bezierVertex(191, 395, 165, 389, 165, 389);
+bezierVertex(157, 378, 142, 356, 142, 356);
+bezierVertex(143, 320, 155, 311, 155, 311);
+endShape();
+
+//gets image of it
+var rightshirtsha = get();
+
+//the right shirt texture
+background(255);
+
+//the first color
+var c1 = color(203, 233, 255);
+
+//the second color
+var c2 = color(154, 205, 255);
+
+//draws the gradient
+for(var i = 0; i < 100; i++) {
+    fill(lerpColor(c1, c2, i/100));
+    rect(25, 304 + i, 236, 1);
+}
+
+//gets the image
+var rightshirttex = get();
+
+//hand mask
+background(0);
+fill(255);
+beginShape();
+vertex(334, 337);
+bezierVertex(334, 337, 325, 325, 292, 325);
+bezierVertex(292, 325, 282, 327, 277, 329);
+bezierVertex(277, 329, 264, 327, 258, 336);
+bezierVertex(258, 336, 254, 342, 254, 343);
+bezierVertex(254, 343, 258, 343, 276, 370);
+bezierVertex(277, 371, 297, 373, 302, 349);
+bezierVertex(302, 349, 313, 340, 319, 344);
+bezierVertex(319, 344, 336, 340, 334, 337);
+endShape();
+
+//get the image
+var handsha = get();
+
+//hand mask texture
+background(255);
+//the first color
+var c1 = color(255, 245, 214);
+
+//the second color
+var c2 = color(255);
+
+//draws the gradient
+for(var i = 0; i < 50; i++) {
+    fill(lerpColor(c1, c2, i/50));
+    rect(194, 303 + i, 236, 1);
+}
+
+//get the image
+var handtex = get();
+
+//hand masking
+background(0);
+fill(255);
+
+//the shape
+beginShape();
+vertex(256, 345);
+bezierVertex(256, 345, 262, 329, 268, 330);
+bezierVertex(268, 330, 273, 327, 277, 329);
+bezierVertex(277, 329, 284, 330, 290, 326);
+bezierVertex(290, 326, 295, 324, 317, 328);
+bezierVertex(317, 328, 329, 330, 335, 341);
+bezierVertex(335, 341, 307, 369, 288, 373);
+bezierVertex(288, 373, 258, 366, 257, 342);
+endShape();
+
+//mask everything
+if (txture) {
+    txture.mask(outline);
+}
+if (chintex) {
+    chintex.mask(chinsha);
+}
+if (leftshirttex) {
+    leftshirttex.mask(leftshirtsha);
+}
+if (rightshirttex) {
+    rightshirttex.mask(rightshirtsha);
+}
+if (handtex) {
+    handtex.mask(handsha);
+}
+
+//}
+
+//Background {
+
+//very interesting texture ig
+function interestingTexture(x, y, w, h, w2, h2) {
+    
+    var piixels = [];
+    for(var i = 0; i < w2; i ++) {
+        piixels.push([]);
+        for(var j = 0; j < h2; j ++) {
+            piixels[i].push(get(i, j));
+        }
+    }
+    
+    for(var i = 0; i < w2; i ++) {
+        for(var j = 0; j < h2; j ++) {
+            if(piixels[i][j]) {
+            fill(piixels[i][j]);
+            ellipse(i + random(- x, x), j + random(- y, y), w, h);
+            }
+            
+        }
+    }
+    
+}
+
+//transparent background
+background(255, 0);
+
+//bushes/trees
+fill(46, 62, 89);
+beginShape();
+vertex(252, 386);
+vertex(275, 382);
+vertex(291, 404);
+vertex(291, 404);
+vertex(351, 396);
+vertex(361, 384);
+bezierVertex(361, 384, 363, 381, 360, 380);
+bezierVertex(360, 380, 355, 375, 364, 375);
+bezierVertex(364, 375, 370, 378, 370, 375);
+bezierVertex(370, 375, 382, 363, 375, 399);
+bezierVertex(375, 399, 328, 422, 262, 409);
+bezierVertex(262, 409, 234, 403, 256, 386);
+endShape();
+
+fill(47, 55, 74);
+beginShape();
+vertex(0, 362);
+bezierVertex(5, 361, 6, 366, 6, 366);
+bezierVertex(8, 366, 8, 370, 8, 370);
+bezierVertex(10, 374, 11, 371, 11, 371);
+bezierVertex(13, 367, 16, 370, 16, 370);
+bezierVertex(16, 373, 20, 374, 20, 374);
+bezierVertex(25, 377, 20, 379, 20, 379);
+bezierVertex(23, 381, 17, 380, 17, 380);
+bezierVertex(16, 384, 19, 386, 19, 386);
+bezierVertex(24, 383, 26, 392, 26, 392);
+bezierVertex(29, 396, 31, 391, 31, 391);
+bezierVertex(31, 386, 38, 391, 38, 391);
+bezierVertex(40, 395, 45, 394, 45, 394);
+bezierVertex(46, 392, 48, 395, 48, 395);
+bezierVertex(51, 395, 51, 394, 51, 394);
+bezierVertex(55, 388, 55, 397, 55, 397);
+bezierVertex(55, 398, 58, 397, 58, 397);
+bezierVertex(60, 394, 63, 399, 63, 400);
+bezierVertex(62, 406, 12, 414, 0, 400);
+vertex(0, 362);
+endShape();
+
+fill(46, 53, 72);
+beginShape();
+vertex(291, 401);
+bezierVertex(291, 401, 302, 390, 306, 396);
+bezierVertex(306, 396, 311, 387, 316, 392);
+bezierVertex(316, 392, 318, 393, 324, 390);
+bezierVertex(324, 390, 327, 384, 332, 391);
+bezierVertex(332, 391, 337, 393, 337, 390);
+bezierVertex(337, 390, 339, 384, 346, 389);
+bezierVertex(346, 389, 350, 392, 352, 388);
+bezierVertex(352, 388, 350, 380, 356, 384);
+bezierVertex(356, 384, 358, 381, 360, 385);
+bezierVertex(360, 385, 364, 389, 368, 387);
+bezierVertex(368, 387, 372, 385, 371, 377);
+bezierVertex(371, 377, 370, 376, 368, 373);
+bezierVertex(368, 373, 365, 366, 372, 366);
+bezierVertex(372, 366, 377, 366, 372, 362);
+bezierVertex(372, 362, 369, 359, 375, 353);
+bezierVertex(375, 353, 379, 353, 382, 355);
+bezierVertex(382, 355, 387, 357, 386, 352);
+bezierVertex(386, 352, 382, 345, 390, 341);
+bezierVertex(390, 341, 392, 335, 405, 342);
+bezierVertex(405, 342, 405, 342, 405, 342);
+vertex(407, 409);
+vertex(291, 401);
+endShape();
+interestingTexture(2, 2, 1, 1, width, height);
+var int = get();
+//the first color
+var c1 = color(43, 58, 108);
+
+//the second color
+var c2 = color(46, 141, 180);
+
+//draws the gradient
+for(var i = 0; i < 400; i++) {
+    fill(lerpColor(c1, c2, i/400));
+    rect(0, i, 400, 1);
+}
+
+//clouds
+fill(41, 106, 166);
+beginShape();
+vertex(401, 137);
+bezierVertex(401, 137, 395, 134, 392, 139);
+bezierVertex(392, 139, 389, 140, 386, 140);
+bezierVertex(386, 140, 382, 139, 377, 141);
+bezierVertex(377, 141, 375, 145, 372, 147);
+bezierVertex(372, 147, 368, 145, 366, 148);
+bezierVertex(366, 148, 361, 145, 354, 153);
+bezierVertex(354, 153, 369, 156, 372, 153);
+bezierVertex(372, 153, 381, 160, 403, 157);
+endShape();
+
+fill(39, 115, 174);
+beginShape();
+vertex(327, 163);
+bezierVertex(327, 163, 338, 165, 346, 164);
+bezierVertex(346, 164, 348, 163, 344, 162);
+bezierVertex(344, 162, 340, 157, 331, 160);
+bezierVertex(331, 160, 326, 161, 328, 164);
+endShape();
+
+fill(40, 115, 174);
+beginShape();
+vertex(402, 198);
+bezierVertex(402, 198, 398, 198, 395, 200);
+bezierVertex(395, 200, 388, 199, 384, 202);
+bezierVertex(384, 202, 382, 205, 382, 205);
+bezierVertex(378, 202, 375, 206, 375, 206);
+bezierVertex(363, 207, 371, 209, 371, 209);
+bezierVertex(380, 209, 380, 209, 378, 209);
+bezierVertex(378, 209, 386, 211, 402, 211);
+endShape();
+
+fill(45, 137, 190);
+beginShape();
+vertex(401, 298);
+bezierVertex(401, 298, 398, 298, 398, 298);
+bezierVertex(395, 293, 390, 295, 390, 295);
+bezierVertex(382, 289, 377, 297, 377, 297);
+bezierVertex(373, 296, 370, 300, 370, 300);
+bezierVertex(367, 300, 367, 302, 367, 302);
+bezierVertex(360, 302, 368, 305, 368, 305);
+bezierVertex(379, 304, 383, 304, 383, 304);
+bezierVertex(392, 306, 397, 304, 397, 304);
+bezierVertex(405, 304, 404, 301, 404, 301);
+endShape();
+
+//white stars
+for (var i = 0; i < 20; i ++) {
+    for (var j = 0; j < 10; j ++) {
+        fill(255);
+        ellipse(random(400), random(400), 1, 1);
+    }
+}
+
+//mountains
+fill(40, 98, 139);
+beginShape();
+vertex(21, 387);
+bezierVertex(21, 387, 30, 383, 33, 385);
+bezierVertex(33, 385, 41, 390, 56, 387);
+bezierVertex(56, 387, 62, 385, 64, 384);
+bezierVertex(64, 384, 67, 381, 71, 384);
+bezierVertex(71, 384, 77, 386, 81, 385);
+bezierVertex(81, 385, 237, 385, 79, 406);
+bezierVertex(79, 406, 5, 406, 22, 386);
+endShape();
+
+fill(43, 82, 120);
+beginShape();
+vertex(28, 394);
+bezierVertex(28, 394, 45, 383, 59, 389);
+bezierVertex(59, 389, 68, 395, 76, 394);
+bezierVertex(76, 394, 88, 388, 88, 388);
+bezierVertex(88, 388, 97, 419, 42, 420);
+bezierVertex(24, 408, 30, 394, 30, 394);
+endShape();
+
+fill(42, 106, 149);
+beginShape();
+vertex(306, 378);
+bezierVertex(306, 378, 317, 393, 333, 381);
+bezierVertex(333, 381, 340, 377, 344, 376);
+bezierVertex(344, 376, 347, 374, 355, 377);
+bezierVertex(355, 377, 375, 387, 376, 387);
+bezierVertex(376, 387, 357, 406, 276, 413);
+bezierVertex(276, 413, 275, 390, 305, 379);
+endShape();
+
+//moon lightness gradient ellipse
+for (var r = 35; r > 0; --r) {
+    var inter = map(r, 0, 35, 0, 1);
+    var c = lerpColor(color(79, 128, 184), color(49, 97, 155, 0), inter);
+    fill(c);
+    ellipse(345, 67, r * 3, r * 3);
+}
+
+//moon
+fill(255, 255, 179);
+beginShape();
+vertex(338, 46);
+bezierVertex(338, 46, 357, 43, 363, 60);
+bezierVertex(363, 60, 367, 82, 353, 87);
+bezierVertex(353, 87, 342, 94, 332, 88);
+bezierVertex(332, 88, 328, 85, 325, 81);
+bezierVertex(325, 81, 342, 88, 350, 77);
+bezierVertex(350, 77, 358, 69, 352, 56);
+bezierVertex(352, 56, 348, 49, 339, 46);
+endShape();
+
+//draw the funky trees/bushes
+image(int, 0, 0);
+//}
+
+//Other details to pull it together {
+
+//face outline
+strokeWeight(1.2);
+stroke(48, 48, 48);
+fill(255, 245, 214);
+beginShape();
+vertex(248, 126);
+bezierVertex(248, 126, 231, 104, 188, 132);
+bezierVertex(188, 132, 172, 165, 151, 173);
+bezierVertex(151, 173, 137, 195, 143, 211);
+bezierVertex(151, 207, 151, 208, 151, 208);
+bezierVertex(151, 208, 158, 226, 171, 237);
+bezierVertex(171, 237, 178, 241, 170, 221);
+bezierVertex(170, 221, 168, 216, 163, 213);
+bezierVertex(163, 213, 164, 199, 174, 198);
+bezierVertex(174, 198, 176, 197, 179, 196);
+bezierVertex(179, 196, 190, 213, 204, 209);
+bezierVertex(204, 209, 212, 206, 213, 202);
+bezierVertex(213, 202, 215, 198, 220, 198);
+bezierVertex(220, 198, 222, 199, 221, 196);
+bezierVertex(221, 196, 228, 198, 231, 192);
+bezierVertex(231, 192, 231, 189, 232, 188);
+bezierVertex(232, 188, 233, 184, 237, 185);
+bezierVertex(237, 185, 242, 186, 241, 179);
+bezierVertex(241, 179, 238, 170, 239, 165);
+bezierVertex(238, 165, 247, 160, 242, 156);
+bezierVertex(242, 156, 240, 155, 244, 155);
+bezierVertex(244, 155, 250, 155, 254, 150);
+bezierVertex(254, 150, 267, 140, 246, 132);
+bezierVertex(246, 132, 247, 126, 247, 126);
+endShape();
+
+//shadow above head
+noStroke();
+fill(255, 234, 212);
+beginShape();
+vertex(241, 122);
+bezierVertex(241, 122, 192, 122, 204, 145);
+bezierVertex(204, 145, 209, 153, 233, 152);
+bezierVertex(233, 152, 240, 160, 246, 168);
+bezierVertex(246, 168, 270, 143, 258, 130);
+bezierVertex(258, 130, 244, 121, 243, 121);
+bezierVertex(239, 122, 239, 122, 239, 122);
+endShape();
+
+//eye
+fill(82, 94, 108);
+beginShape();
+vertex(212, 155);
+bezierVertex(212, 155, 222, 155, 223, 158);
+bezierVertex(223, 158, 226, 161, 225, 164);
+bezierVertex(225, 164, 224, 167, 227, 164);
+bezierVertex(227, 164, 228, 161, 231, 161);
+bezierVertex(231, 161, 228, 159, 225, 156);
+bezierVertex(225, 156, 221, 152, 218, 152);
+bezierVertex(218, 152, 207, 154, 214, 155);
+endShape();
+
+//eyelashes
+stroke(82, 94, 108);
+noFill();
+strokeWeight(0.7);
+beginShape();
+vertex(218, 151);
+bezierVertex(218, 151, 217, 150, 218, 148);
+endShape();
+
+beginShape();
+vertex(220, 154);
+bezierVertex(220, 154, 221, 151, 222, 151);
+endShape();
+
+beginShape();
+vertex(224, 155);
+bezierVertex(224, 155, 225, 154, 227, 153);
+endShape();
+
+beginShape();
+vertex(227, 158);
+bezierVertex(227, 158, 229, 157, 231, 158);
+endShape();
+
+//mouth
+stroke(48);
+strokeWeight(1);
+beginShape();
+vertex(216, 188);
+bezierVertex(216, 188, 216, 193, 221, 197);
+endShape();
+
+//nose
+strokeWeight(0.2);
+fill(255, 236, 222);
+beginShape();
+vertex(241, 183);
+bezierVertex(241, 183, 232, 179, 235, 184);
+bezierVertex(235, 184, 238, 182, 240, 183);
+endShape();
+
+//pale cheek blush
+noStroke();
+fill(255, 236, 218);
+beginShape();
+vertex(220, 169);
+bezierVertex(220, 169, 213, 156, 213, 167);
+bezierVertex(213, 167, 223, 182, 220, 168);
+endShape();
+
+//chin black part ig?
+stroke(48);
+strokeWeight(1);
+beginShape();
+vertex(166, 185);
+bezierVertex(166, 185, 171, 192, 177, 196);
+endShape();
+
+//shirt outline
+fill(222, 244, 255);
+beginShape();
+vertex(137, 213);
+bezierVertex(137, 213, 111, 230, 110, 231);
+bezierVertex(92, 234, 72, 263, 72, 263);
+bezierVertex(68, 269, 68, 276, 68, 276);
+bezierVertex(63, 280, 65, 289, 65, 289);
+bezierVertex(65, 294, 66, 310, 66, 310);
+bezierVertex(67, 316, 70, 323, 70, 323);
+bezierVertex(67, 314, 66, 327, 66, 327);
+bezierVertex(64, 335, 63, 339, 63, 339);
+bezierVertex(61, 343, 70, 350, 70, 350);
+bezierVertex(69, 347, 70, 342, 70, 342);
+bezierVertex(70, 345, 70, 350, 70, 350);
+bezierVertex(76, 368, 80, 389, 80, 389);
+bezierVertex(82, 395, 85, 399, 85, 401);
+vertex(265, 401);
+bezierVertex(265, 401, 267, 397, 270, 393);
+bezierVertex(270, 393, 244, 350, 229, 354);
+bezierVertex(229, 354, 223, 343, 215, 336);
+bezierVertex(215, 336, 219, 338, 219, 340);
+bezierVertex(219, 340, 224, 312, 215, 289);
+bezierVertex(215, 289, 211, 279, 209, 275);
+bezierVertex(209, 275, 210, 264, 205, 260);
+bezierVertex(205, 260, 205, 249, 200, 243);
+bezierVertex(200, 243, 200, 237, 183, 226);
+bezierVertex(183, 226, 180, 225, 180, 225);
+bezierVertex(180, 224, 180, 220, 165, 209);
+bezierVertex(165, 209, 164, 211, 163, 214);
+bezierVertex(163, 214, 168, 215, 173, 234);
+bezierVertex(173, 235, 177, 236, 171, 236);
+bezierVertex(171, 236, 163, 228, 158, 218);
+bezierVertex(157, 218, 149, 208, 149, 208);
+bezierVertex(146, 208, 134, 213, 134, 213);
+endShape();
+
+//draw the image
+image(chintex, 0, 0);
+
+//draw the image
+image(leftshirttex, 0, 0);
+
+//draw the image
+image(rightshirttex, 0, 0);
+
+noFill();
+beginShape();
+vertex(81, 271);
+bezierVertex(81, 271, 107, 261, 123, 271);
+bezierVertex(123, 271, 126, 274, 126, 274);
+endShape();
+
+//details on the shirt
+fill(224, 245, 255);
+beginShape();
+vertex(126, 274);
+bezierVertex(126, 274, 146, 286, 149, 304);
+bezierVertex(149, 304, 152, 320, 153, 334);
+bezierVertex(153, 334, 152, 341, 152, 341);
+endShape();
+
+noStroke();
+beginShape();
+vertex(165, 382);
+bezierVertex(163, 376, 160, 372, 160, 372);
+bezierVertex(160, 364, 154, 354, 154, 354);
+bezierVertex(153, 347, 152, 320, 151, 320);
+bezierVertex(151, 320, 147, 301, 140, 304);
+bezierVertex(140, 304, 114, 337, 143, 377);
+bezierVertex(143, 377, 156, 379, 163, 380);
+endShape();
+
+fill(255);
+beginShape();
+vertex(155, 352);
+bezierVertex(155, 339, 155, 330, 155, 330);
+bezierVertex(154, 327, 153, 324, 153, 324);
+bezierVertex(153, 312, 148, 298, 148, 298);
+bezierVertex(145, 293, 139, 286, 139, 286);
+bezierVertex(150, 305, 148, 319, 148, 319);
+bezierVertex(148, 327, 150, 330, 150, 330);
+bezierVertex(150, 336, 148, 341, 148, 341);
+bezierVertex(146, 343, 145, 337, 145, 337);
+bezierVertex(141, 320, 131, 313, 131, 313);
+bezierVertex(140, 328, 143, 345, 143, 345);
+bezierVertex(141, 344, 138, 344, 138, 344);
+bezierVertex(158, 356, 157, 368, 157, 368);
+bezierVertex(149, 362, 135, 357, 135, 357);
+bezierVertex(155, 370, 155, 370, 155, 370);
+bezierVertex(158, 375, 158, 381, 158, 381);
+bezierVertex(162, 380, 166, 377, 166, 377);
+bezierVertex(161, 376, 161, 375, 161, 375);
+bezierVertex(163, 362, 157, 355, 157, 355);
+bezierVertex(153, 353, 155, 349, 155, 349);
+endShape();
+
+noFill();
+stroke(48);
+beginShape();
+vertex(155, 341);
+bezierVertex(155, 341, 156, 319, 149, 300);
+bezierVertex(149, 300, 142, 288, 136, 283);
+endShape();
+
+stroke(48);
+beginShape();
+vertex(147, 342);
+bezierVertex(147, 342, 141, 321, 123, 301);
+endShape();
+
+beginShape();
+vertex(165, 377);
+bezierVertex(165, 377, 162, 376, 162, 376);
+bezierVertex(162, 376, 163, 366, 160, 360);
+bezierVertex(160, 360, 154, 351, 133, 339);
+endShape();
+
+beginShape();
+vertex(154, 365);
+bezierVertex(125, 347, 96, 337, 96, 337);
+endShape();
+
+beginShape();
+vertex(91, 336);
+bezierVertex(91, 336, 89, 336, 88, 336);
+endShape();
+
+beginShape();
+vertex(153, 370);
+endShape();
+
+beginShape();
+vertex(153, 370);
+bezierVertex(153, 370, 149, 368, 136, 366);
+bezierVertex(136, 366, 124, 365, 115, 368);
+endShape();
+
+beginShape();
+vertex(159, 381);
+bezierVertex(154, 381, 156, 376, 156, 376);
+bezierVertex(155, 374, 149, 375, 149, 375);
+bezierVertex(141, 377, 134, 379, 134, 379);
+endShape();
+
+fill(219, 242, 255);
+noStroke();
+beginShape();
+vertex(146, 385);
+bezierVertex(146, 385, 162, 396, 185, 389);
+bezierVertex(185, 389, 198, 470, 214, 388);
+bezierVertex(214, 388, 249, 380, 217, 368);
+bezierVertex(217, 368, 225, 365, 214, 364);
+bezierVertex(214, 364, 210, 366, 204, 371);
+bezierVertex(204, 371, 200, 370, 194, 368);
+bezierVertex(194, 368, 185, 369, 178, 372);
+bezierVertex(178, 372, 168, 380, 159, 380);
+bezierVertex(159, 380, 154, 384, 146, 385);
+endShape();
+
+fill(255);
+noStroke();
+beginShape();
+vertex(218, 367);
+bezierVertex(217, 366, 214, 363, 209, 367);
+bezierVertex(209, 367, 204, 370, 202, 371);
+bezierVertex(202, 371, 199, 368, 191, 368);
+bezierVertex(191, 368, 180, 370, 173, 374);
+bezierVertex(173, 374, 167, 377, 158, 382);
+bezierVertex(158, 382, 153, 384, 149, 386);
+bezierVertex(149, 386, 153, 386, 169, 379);
+bezierVertex(169, 379, 182, 373, 187, 372);
+bezierVertex(187, 372, 195, 370, 201, 371);
+bezierVertex(201, 371, 206, 372, 210, 370);
+bezierVertex(210, 370, 215, 367, 218, 366);
+endShape();
+
+stroke(48);
+noFill();
+beginShape();
+vertex(231, 382);
+bezierVertex(231, 382, 221, 369, 218, 366);
+bezierVertex(218, 366, 217, 363, 208, 367);
+bezierVertex(208, 367, 205, 370, 203, 371);
+bezierVertex(203, 371, 198, 366, 185, 370);
+bezierVertex(185, 370, 176, 372, 165, 377);
+bezierVertex(165, 377, 159, 380, 150, 385);
+bezierVertex(150, 385, 147, 387, 134, 386);
+bezierVertex(134, 386, 147, 394, 157, 400);
+vertex(157, 401);
+vertex(174, 401);
+bezierVertex(174, 400, 188, 396, 191, 391);
+endShape();
+
+beginShape();
+vertex(191, 381);
+bezierVertex(191, 381, 190, 374, 196, 375);
+bezierVertex(196, 375, 198, 378, 209, 378);
+bezierVertex(209, 378, 216, 377, 210, 375);
+bezierVertex(210, 375, 208, 375, 206, 374);
+endShape();
+
+fill(218, 241, 255);
+noStroke();
+beginShape();
+vertex(227, 396);
+vertex(227, 401);
+vertex(235, 401);
+vertex(235, 390);
+vertex(229, 388);
+vertex(228, 395);
+endShape();
+
+noFill();
+stroke(48);
+beginShape();
+vertex(209, 379);
+bezierVertex(209, 379, 220, 391, 222, 401);
+endShape();
+
+beginShape();
+vertex(220, 394);
+vertex(228, 388);
+endShape();
+
+beginShape();
+vertex(223, 398);
+vertex(231, 393);
+endShape();
+
+beginShape();
+vertex(232, 401);
+vertex(244, 401);
+bezierVertex(234, 401, 233, 398, 234, 398);
+bezierVertex(237, 398, 237, 398, 238, 389);
+bezierVertex(235, 387, 235, 387, 230, 380);
+bezierVertex(225, 374, 225, 374, 225, 374);
+endShape();
+
+//draw the image
+image(txture, 0, 0);
+
+//hair outline
+beginShape();
+vertex(14, 116);
+bezierVertex(14, 116, 2, 126, 6, 136);
+bezierVertex(6, 136, 9, 146, 31, 136);
+bezierVertex(31, 136, 44, 128, 50, 120);
+bezierVertex(50, 120, 50, 114, 52, 110);
+bezierVertex(52, 110, 25, 119, 7, 101);
+bezierVertex(7, 101, 2, 97, 2, 94);
+bezierVertex(2, 94, 13, 107, 26, 108);
+bezierVertex(26, 108, 40, 110, 51, 106);
+bezierVertex(51, 106, 56, 85, 82, 61);
+bezierVertex(82, 61, 92, 75, 80, 78);
+bezierVertex(80, 78, 80, 83, 80, 85);
+bezierVertex(80, 85, 92, 83, 91, 89);
+bezierVertex(91, 89, 92, 88, 92, 88);
+bezierVertex(92, 88, 94, 85, 98, 89);
+bezierVertex(98, 89, 107, 90, 103, 86);
+bezierVertex(103, 86, 100, 82, 93, 84);
+bezierVertex(93, 84, 94, 76, 101, 75);
+bezierVertex(101, 75, 112, 75, 114, 75);
+bezierVertex(114, 75, 120, 75, 116, 80);
+bezierVertex(116, 80, 113, 85, 120, 85);
+bezierVertex(120, 85, 124, 83, 125, 77);
+bezierVertex(125, 77, 132, 79, 134, 83);
+bezierVertex(134, 83, 135, 77, 134, 72);
+bezierVertex(134, 72, 129, 72, 130, 65);
+bezierVertex(130, 65, 135, 62, 138, 63);
+bezierVertex(138, 63, 138, 60, 138, 59);
+bezierVertex(138, 59, 134, 54, 140, 53);
+bezierVertex(140, 53, 140, 42, 153, 44);
+bezierVertex(153, 44, 158, 45, 158, 50);
+bezierVertex(158, 50, 161, 50, 162, 47);
+bezierVertex(162, 47, 171, 51, 165, 53);
+bezierVertex(165, 53, 166, 59, 166, 59);
+bezierVertex(166, 59, 177, 58, 171, 66);
+bezierVertex(171, 66, 171, 69, 175, 71);
+bezierVertex(175, 71, 177, 72, 173, 77);
+bezierVertex(173, 77, 169, 79, 166, 78);
+bezierVertex(166, 78, 165, 80, 161, 80);
+bezierVertex(161, 80, 158, 84, 164, 83);
+bezierVertex(164, 83, 166, 80, 169, 82);
+bezierVertex(169, 82, 169, 85, 170, 86);
+bezierVertex(170, 86, 173, 87, 170, 90);
+bezierVertex(170, 90, 167, 97, 179, 100);
+bezierVertex(179, 100, 183, 100, 185, 96);
+bezierVertex(185, 96, 191, 96, 195, 96);
+bezierVertex(195, 96, 198, 94, 199, 92);
+bezierVertex(199, 92, 202, 97, 206, 96);
+bezierVertex(206, 96, 207, 93, 207, 93);
+bezierVertex(210, 99, 214, 92, 214, 92);
+bezierVertex(217, 93, 221, 93, 221, 93);
+bezierVertex(218, 95, 214, 95, 214, 95);
+bezierVertex(208, 107, 216, 105, 216, 105);
+bezierVertex(221, 103, 225, 101, 225, 101);
+bezierVertex(225, 93, 227, 91, 227, 91);
+bezierVertex(231, 90, 233, 94, 233, 94);
+bezierVertex(233, 88, 238, 91, 238, 91);
+bezierVertex(242, 91, 237, 86, 237, 86);
+bezierVertex(232, 82, 236, 79, 236, 79);
+bezierVertex(240, 72, 239, 67, 239, 67);
+bezierVertex(245, 68, 245, 67, 245, 67);
+bezierVertex(245, 66, 248, 65, 248, 65);
+bezierVertex(245, 55, 257, 57, 257, 57);
+bezierVertex(259, 58, 254, 60, 254, 60);
+bezierVertex(252, 74, 256, 71, 256, 71);
+bezierVertex(261, 70, 260, 63, 260, 63);
+bezierVertex(256, 62, 261, 59, 261, 59);
+bezierVertex(272, 70, 277, 92, 277, 92);
+bezierVertex(289, 113, 297, 107, 297, 107);
+bezierVertex(302, 104, 301, 96, 301, 96);
+bezierVertex(307, 105, 299, 108, 299, 108);
+bezierVertex(295, 110, 289, 110, 289, 110);
+bezierVertex(305, 123, 298, 149, 298, 149);
+bezierVertex(292, 168, 282, 169, 282, 169);
+bezierVertex(277, 171, 271, 170, 271, 170);
+bezierVertex(289, 165, 289, 156, 289, 156);
+bezierVertex(289, 152, 287, 147, 287, 147);
+bezierVertex(286, 153, 280, 157, 280, 157);
+bezierVertex(276, 160, 272, 158, 272, 158);
+bezierVertex(272, 164, 259, 163, 259, 163);
+bezierVertex(255, 173, 250, 178, 250, 178);
+bezierVertex(242, 185, 254, 200, 254, 200);
+bezierVertex(259, 206, 260, 206, 260, 206);
+bezierVertex(252, 204, 249, 200, 249, 200);
+bezierVertex(249, 206, 249, 205, 249, 205);
+bezierVertex(245, 198, 246, 194, 246, 194);
+bezierVertex(237, 187, 231, 190, 231, 190);
+bezierVertex(230, 194, 240, 196, 240, 196);
+bezierVertex(246, 199, 250, 211, 251, 215);
+bezierVertex(251, 215, 257, 231, 270, 232);
+bezierVertex(270, 232, 277, 232, 285, 232);
+bezierVertex(285, 232, 281, 237, 254, 233);
+bezierVertex(254, 233, 260, 256, 289, 258);
+bezierVertex(289, 258, 330, 256, 351, 282);
+bezierVertex(351, 282, 358, 294, 343, 304);
+bezierVertex(343, 304, 338, 306, 334, 305);
+bezierVertex(334, 305, 350, 293, 340, 284);
+bezierVertex(340, 284, 336, 278, 321, 280);
+bezierVertex(321, 280, 296, 307, 277, 308);
+bezierVertex(277, 308, 279, 314, 285, 325);
+bezierVertex(285, 325, 279, 320, 261, 304);
+bezierVertex(261, 304, 259, 310, 260, 314);
+bezierVertex(260, 313, 267, 320, 279, 328);
+bezierVertex(279, 328, 275, 328, 270, 328);
+bezierVertex(270, 328, 266, 325, 265, 322);
+bezierVertex(265, 322, 264, 326, 263, 331);
+bezierVertex(263, 331, 262, 356, 229, 359);
+bezierVertex(229, 359, 228, 355, 228, 351);
+bezierVertex(228, 351, 236, 348, 238, 341);
+bezierVertex(238, 341, 237, 334, 245, 325);
+bezierVertex(245, 325, 248, 322, 249, 321);
+bezierVertex(249, 321, 248, 314, 252, 317);
+bezierVertex(252, 317, 260, 314, 252, 309);
+bezierVertex(252, 309, 248, 309, 244, 313);
+bezierVertex(244, 313, 241, 316, 236, 325);
+bezierVertex(236, 325, 232, 327, 221, 331);
+bezierVertex(221, 330, 225, 308, 211, 282);
+bezierVertex(211, 282, 210, 275, 209, 265);
+bezierVertex(209, 265, 208, 260, 206, 258);
+bezierVertex(206, 258, 203, 245, 196, 235);
+bezierVertex(192, 231, 184, 225, 184, 225);
+bezierVertex(179, 224, 179, 224, 175, 217);
+bezierVertex(175, 217, 172, 213, 165, 209);
+bezierVertex(165, 209, 163, 203, 171, 198);
+bezierVertex(171, 198, 177, 195, 182, 199);
+bezierVertex(182, 199, 189, 211, 203, 209);
+bezierVertex(203, 209, 209, 208, 213, 202);
+bezierVertex(213, 202, 214, 199, 218, 199);
+bezierVertex(218, 199, 224, 199, 222, 197);
+bezierVertex(222, 197, 229, 197, 230, 192);
+bezierVertex(230, 192, 233, 187, 232, 185);
+bezierVertex(232, 185, 242, 186, 242, 182);
+bezierVertex(242, 182, 240, 175, 239, 173);
+bezierVertex(239, 173, 238, 168, 244, 160);
+bezierVertex(244, 160, 245, 157, 241, 154);
+bezierVertex(241, 154, 250, 156, 254, 149);
+bezierVertex(254, 149, 258, 146, 258, 143);
+bezierVertex(258, 144, 246, 155, 220, 153);
+bezierVertex(220, 153, 229, 152, 234, 147);
+bezierVertex(234, 147, 226, 148, 223, 143);
+bezierVertex(223, 143, 217, 144, 210, 143);
+bezierVertex(210, 143, 231, 137, 240, 127);
+bezierVertex(240, 127, 228, 131, 220, 127);
+bezierVertex(220, 127, 213, 132, 207, 131);
+bezierVertex(207, 131, 212, 169, 189, 173);
+bezierVertex(189, 173, 202, 166, 202, 149);
+bezierVertex(202, 149, 189, 163, 183, 168);
+bezierVertex(183, 168, 177, 181, 191, 188);
+bezierVertex(191, 188, 201, 194, 203, 187);
+bezierVertex(203, 187, 205, 197, 189, 192);
+bezierVertex(189, 192, 179, 189, 175, 177);
+bezierVertex(175, 177, 170, 185, 177, 190);
+bezierVertex(177, 190, 161, 188, 163, 180);
+bezierVertex(163, 180, 155, 181, 158, 199);
+bezierVertex(158, 199, 165, 239, 144, 242);
+bezierVertex(144, 242, 154, 231, 155, 212);
+bezierVertex(155, 212, 155, 206, 153, 202);
+bezierVertex(153, 202, 127, 247, 99, 248);
+bezierVertex(99, 248, 113, 237, 125, 228);
+bezierVertex(125, 228, 113, 229, 108, 231);
+bezierVertex(108, 231, 83, 241, 68, 271);
+bezierVertex(68, 270, 66, 282, 66, 296);
+bezierVertex(66, 296, 71, 319, 64, 328);
+bezierVertex(64, 328, 61, 334, 64, 344);
+bezierVertex(64, 344, 59, 344, 58, 349);
+bezierVertex(58, 349, 55, 352, 50, 353);
+bezierVertex(50, 353, 48, 370, 55, 381);
+bezierVertex(55, 381, 62, 388, 53, 388);
+bezierVertex(53, 388, 51, 386, 51, 384);
+bezierVertex(51, 384, 48, 383, 46, 383);
+bezierVertex(46, 383, 47, 387, 42, 385);
+bezierVertex(42, 385, 31, 378, 30, 367);
+bezierVertex(30, 365, 36, 364, 31, 362);
+bezierVertex(31, 362, 30, 355, 30, 349);
+bezierVertex(30, 349, 34, 346, 30, 343);
+bezierVertex(30, 343, 24, 341, 14, 342);
+bezierVertex(14, 342, 9, 345, 0, 352);
+vertex(0, 310);
+bezierVertex(0, 310, 31, 297, 20, 255);
+bezierVertex(20, 255, 13, 284, 0, 290);
+vertex(0, 260);
+bezierVertex(0, 250, 9, 233, 9, 233);
+bezierVertex(4, 240, 1, 240, 0, 238);
+vertex(0, 207);
+bezierVertex(0, 207, 4, 204, 8, 203);
+bezierVertex(8, 203, 6, 201, 0, 201);
+vertex(0, 201);
+vertex(0, 174);
+bezierVertex(0, 174, 12, 176, 21, 180);
+bezierVertex(21, 180, 23, 175, 26, 173);
+bezierVertex(26, 173, 12, 168, 0, 168);
+vertex(0, 159);
+vertex(8, 160);
+vertex(0, 154);
+vertex(0, 140);
+bezierVertex(0, 140, 4, 140, 4, 140);
+bezierVertex(4, 140, 1, 129, 2, 126);
+bezierVertex(2, 126, 6, 119, 13, 117);
+endShape();
+
+//top of hair outline
+beginShape();
+vertex(174, 15);
+bezierVertex(174, 15, 173, 7, 176, 0);
+vertex(169, 0);
+bezierVertex(169, 0, 167, 10, 168, 18);
+bezierVertex(168, 18, 167, 19, 164, 17);
+bezierVertex(164, 17, 156, 11, 147, 15);
+bezierVertex(147, 15, 147, 16, 149, 17);
+bezierVertex(149, 17, 154, 18, 152, 19);
+bezierVertex(152, 19, 148, 20, 146, 23);
+bezierVertex(146, 23, 150, 25, 154, 22);
+bezierVertex(154, 22, 157, 30, 164, 27);
+bezierVertex(164, 27, 169, 27, 165, 31);
+bezierVertex(165, 31, 162, 37, 166, 38);
+bezierVertex(166, 38, 170, 41, 173, 40);
+bezierVertex(173, 40, 176, 41, 176, 48);
+bezierVertex(176, 48, 176, 52, 183, 46);
+bezierVertex(182, 46, 187, 40, 190, 46);
+bezierVertex(190, 46, 194, 49, 200, 44);
+bezierVertex(200, 44, 200, 38, 199, 33);
+bezierVertex(199, 33, 203, 27, 214, 29);
+bezierVertex(214, 29, 221, 33, 220, 38);
+bezierVertex(220, 38, 219, 39, 214, 39);
+bezierVertex(214, 39, 215, 42, 211, 42);
+bezierVertex(211, 42, 206, 46, 214, 47);
+bezierVertex(214, 47, 217, 46, 219, 43);
+bezierVertex(219, 43, 226, 43, 220, 47);
+bezierVertex(220, 47, 214, 52, 221, 54);
+bezierVertex(221, 54, 231, 55, 227, 48);
+bezierVertex(227, 48, 225, 46, 223, 44);
+bezierVertex(223, 44, 242, 49, 242, 43);
+bezierVertex(242, 43, 244, 44, 243, 46);
+bezierVertex(243, 46, 244, 53, 251, 49);
+bezierVertex(251, 49, 248, 43, 237, 36);
+bezierVertex(237, 36, 255, 49, 268, 41);
+bezierVertex(268, 41, 270, 40, 263, 40);
+bezierVertex(263, 40, 253, 41, 247, 37);
+bezierVertex(248, 37, 237, 23, 192, 10);
+bezierVertex(192, 10, 182, 10, 174, 14);
+endShape();
+
+//hair outline chunks
+beginShape();
+vertex(117, 25);
+bezierVertex(117, 25, 110, 33, 105, 38);
+bezierVertex(105, 38, 104, 42, 110, 39);
+bezierVertex(110, 39, 112, 36, 120, 34);
+bezierVertex(120, 34, 118, 33, 113, 34);
+bezierVertex(113, 34, 119, 29, 120, 27);
+bezierVertex(120, 27, 120, 24, 116, 26);
+endShape();
+
+fill(63, 146, 192);
+beginShape();
+vertex(125, 29);
+bezierVertex(125, 29, 128, 31, 128, 34);
+bezierVertex(128, 34, 132, 39, 131, 33);
+bezierVertex(131, 33, 131, 28, 135, 30);
+bezierVertex(135, 30, 141, 31, 136, 27);
+bezierVertex(136, 27, 135, 24, 131, 26);
+bezierVertex(131, 26, 125, 27, 124, 30);
+endShape();
+
+//hand 2
+image(handtex, 0, 0);
+
+//the shape
+beginShape();
+vertex(249, 345);
+bezierVertex(255, 345, 262, 328, 268, 330);
+bezierVertex(268, 330, 273, 327, 277, 329);
+bezierVertex(277, 329, 284, 330, 290, 326);
+bezierVertex(290, 326, 295, 324, 317, 328);
+bezierVertex(317, 328, 329, 330, 335, 341);
+bezierVertex(335, 341, 307, 369, 288, 373);
+bezierVertex(288, 373, 258, 366, 257, 342);
+endShape();
+
+noStroke();
+fill(255, 229, 212);
+beginShape();
+vertex(266, 341);
+bezierVertex(266, 341, 266, 334, 263, 332);
+bezierVertex(263, 332, 260, 337, 255, 342);
+bezierVertex(255, 342, 255, 343, 261, 345);
+bezierVertex(266, 340, 266, 340, 266, 340);
+endShape();
+
+//hand outline
+stroke(48);
+fill(255, 237, 205);
+beginShape();
+vertex(319, 343);
+bezierVertex(319, 343, 327, 336, 332, 337);
+bezierVertex(332, 337, 336, 338, 335, 343);
+bezierVertex(335, 343, 331, 346, 327, 351);
+bezierVertex(327, 351, 324, 356, 321, 362);
+vertex(288, 366);
+vertex(319, 343);
+endShape();
+
+beginShape();
+vertex(335, 339);
+bezierVertex(335, 339, 336, 333, 344, 336);
+bezierVertex(344, 336, 348, 337, 343, 344);
+bezierVertex(343, 344, 337, 355, 334, 364);
+bezierVertex(334, 364, 334, 368, 320, 374);
+bezierVertex(320, 374, 315, 375, 309, 374);
+endShape();
+
+beginShape();
+vertex(346, 337);
+bezierVertex(346, 337, 351, 333, 353, 336);
+bezierVertex(353, 336, 355, 338, 352, 341);
+bezierVertex(352, 341, 352, 350, 347, 359);
+bezierVertex(347, 359, 345, 364, 332, 366);
+endShape();
+
+beginShape();
+vertex(290, 361);
+bezierVertex(290, 361, 302, 352, 308, 345);
+bezierVertex(308, 345, 317, 339, 319, 345);
+bezierVertex(319, 345, 320, 349, 314, 353);
+bezierVertex(314, 353, 311, 356, 308, 362);
+endShape();
+
+//lighting in hand
+noStroke();
+stroke(255);
+strokeWeight(3);
+beginShape();
+vertex(317, 345);
+bezierVertex(317, 345, 314, 342, 302, 353);
+bezierVertex(302, 353, 297, 359, 292, 362);
+endShape();
+
+beginShape();
+vertex(334, 341);
+bezierVertex(334, 341, 330, 339, 320, 345);
+endShape();
+
+beginShape();
+vertex(344, 338);
+bezierVertex(344, 338, 341, 336, 336, 339);
+endShape();
+
+beginShape();
+vertex(353, 336);
+vertex(349, 336);
+endShape();
+strokeWeight(1);
+
+//shadows in hand
+fill(248, 210, 184);
+noStroke();
+beginShape();
+vertex(299, 364);
+bezierVertex(298, 364, 310, 356, 326, 356);
+bezierVertex(326, 356, 332, 357, 338, 355);
+bezierVertex(338, 355, 341, 352, 342, 348);
+bezierVertex(342, 348, 345, 352, 349, 352);
+bezierVertex(349, 352, 347, 362, 342, 364);
+bezierVertex(342, 364, 335, 367, 333, 366);
+bezierVertex(333, 366, 331, 371, 321, 372);
+bezierVertex(321, 372, 318, 373, 314, 373);
+bezierVertex(314, 373, 300, 369, 298, 364);
+endShape();
+
+//cover up hand
+stroke(48);
+noFill();
+beginShape();
+vertex(319, 343);
+bezierVertex(319, 343, 327, 336, 332, 337);
+bezierVertex(332, 337, 336, 338, 335, 343);
+bezierVertex(335, 343, 331, 346, 327, 351);
+bezierVertex(327, 351, 324, 356, 321, 362);
+endShape();
+
+beginShape();
+vertex(335, 339);
+bezierVertex(335, 339, 336, 333, 344, 336);
+bezierVertex(344, 336, 348, 337, 343, 344);
+bezierVertex(343, 344, 337, 355, 334, 364);
+bezierVertex(334, 364, 334, 368, 320, 374);
+bezierVertex(320, 374, 315, 375, 309, 374);
+endShape();
+
+beginShape();
+vertex(346, 337);
+bezierVertex(346, 337, 351, 333, 353, 336);
+bezierVertex(353, 336, 355, 338, 352, 341);
+bezierVertex(352, 341, 352, 350, 347, 359);
+bezierVertex(347, 359, 345, 364, 332, 366);
+endShape();
+
+beginShape();
+vertex(290, 361);
+bezierVertex(290, 361, 302, 352, 308, 345);
+bezierVertex(308, 345, 317, 339, 319, 345);
+bezierVertex(319, 345, 320, 349, 314, 353);
+bezierVertex(314, 353, 311, 356, 308, 362);
+endShape();
+
+//hand 1
+noStroke();
+fill(255, 228, 200);
+beginShape();
+vertex(217, 363);
+bezierVertex(217, 363, 228, 351, 239, 349);
+bezierVertex(239, 349, 250, 344, 257, 341);
+bezierVertex(257, 341, 263, 340, 265, 337);
+bezierVertex(271, 335, 276, 340, 276, 340);
+bezierVertex(279, 343, 286, 342, 286, 342);
+bezierVertex(293, 343, 296, 349, 296, 349);
+bezierVertex(295, 351, 289, 354, 289, 354);
+bezierVertex(282, 354, 271, 354, 271, 354);
+bezierVertex(275, 361, 280, 362, 280, 362);
+bezierVertex(288, 364, 296, 364, 296, 364);
+bezierVertex(308, 360, 310, 358, 310, 358);
+bezierVertex(318, 355, 321, 357, 321, 357);
+bezierVertex(324, 362, 316, 365, 310, 370);
+bezierVertex(310, 370, 301, 375, 293, 379);
+bezierVertex(293, 379, 287, 377, 285, 378);
+bezierVertex(280, 378, 280, 378, 274, 380);
+bezierVertex(266, 386, 266, 386, 258, 386);
+bezierVertex(252, 385, 252, 385, 251, 384);
+bezierVertex(251, 384, 250, 381, 246, 380);
+bezierVertex(246, 380, 242, 381, 239, 382);
+bezierVertex(235, 384, 233, 385, 234, 385);
+bezierVertex(234, 385, 227, 375, 217, 364);
+endShape();
+
+fill(255);
+beginShape();
+vertex(291, 344);
+bezierVertex(291, 344, 285, 342, 282, 343);
+bezierVertex(282, 343, 278, 342, 273, 338);
+bezierVertex(273, 338, 266, 337, 261, 340);
+bezierVertex(261, 340, 254, 343, 247, 345);
+bezierVertex(247, 345, 240, 346, 228, 353);
+bezierVertex(228, 353, 225, 356, 217, 365);
+bezierVertex(217, 365, 220, 368, 219, 367);
+bezierVertex(221, 364, 227, 357, 227, 357);
+bezierVertex(233, 354, 242, 350, 242, 350);
+bezierVertex(250, 346, 261, 342, 261, 342);
+bezierVertex(271, 341, 275, 344, 275, 344);
+bezierVertex(282, 347, 292, 346, 292, 346);
+bezierVertex(291, 344, 291, 344, 291, 344);
+endShape();
+
+fill(284, 210, 184);
+beginShape();
+vertex(233, 384);
+bezierVertex(233, 384, 250, 375, 251, 383);
+bezierVertex(251, 384, 251, 375, 251, 380);
+bezierVertex(251, 380, 261, 382, 266, 385);
+bezierVertex(266, 385, 267, 381, 280, 379);
+bezierVertex(280, 379, 290, 378, 299, 373);
+bezierVertex(299, 373, 311, 368, 313, 367);
+bezierVertex(313, 367, 321, 366, 315, 377);
+bezierVertex(315, 377, 315, 381, 305, 390);
+bezierVertex(305, 390, 300, 390, 296, 391);
+bezierVertex(296, 391, 296, 395, 277, 397);
+bezierVertex(277, 397, 274, 396, 269, 395);
+bezierVertex(269, 395, 265, 394, 258, 394);
+bezierVertex(258, 394, 255, 392, 250, 389);
+bezierVertex(250, 389, 248, 387, 245, 386);
+bezierVertex(245, 386, 242, 384, 238, 388);
+bezierVertex(238, 388, 236, 389, 236, 389);
+bezierVertex(236, 389, 235, 386, 233, 384);
+endShape();
+
+fill(255, 228, 200);
+beginShape();
+vertex(316, 369);
+bezierVertex(316, 369, 312, 373, 309, 374);
+bezierVertex(309, 374, 306, 374, 308, 381);
+bezierVertex(308, 381, 316, 378, 316, 370);
+endShape();
+
+fill(255, 255, 242);
+beginShape();
+vertex(272, 354);
+bezierVertex(272, 354, 267, 353, 271, 359);
+bezierVertex(271, 359, 276, 366, 279, 366);
+bezierVertex(279, 366, 283, 369, 284, 367);
+bezierVertex(284, 367, 293, 370, 299, 367);
+bezierVertex(299, 367, 310, 364, 315, 361);
+bezierVertex(315, 361, 319, 360, 323, 361);
+bezierVertex(323, 361, 323, 357, 317, 356);
+bezierVertex(317, 356, 311, 358, 303, 361);
+bezierVertex(303, 361, 298, 363, 296, 365);
+bezierVertex(296, 365, 293, 365, 288, 364);
+bezierVertex(288, 364, 287, 364, 287, 363);
+bezierVertex(287, 363, 282, 362, 280, 363);
+bezierVertex(280, 363, 276, 360, 271, 354);
+endShape();
+
+stroke(48);
+noFill();
+beginShape();
+vertex(135, 386);
+bezierVertex(131, 387, 118, 398, 118, 401);
+endShape();
+
+beginShape();
+vertex(217, 364);
+bezierVertex(217, 364, 228, 349, 257, 343);
+bezierVertex(257, 343, 260, 342, 265, 339);
+bezierVertex(265, 339, 271, 336, 275, 339);
+bezierVertex(275, 339, 278, 342, 286, 343);
+bezierVertex(286, 343, 295, 343, 295, 349);
+bezierVertex(295, 349, 291, 353, 287, 354);
+bezierVertex(287, 354, 281, 353, 270, 354);
+bezierVertex(270, 354, 272, 356, 272, 356);
+bezierVertex(275, 357, 278, 361, 278, 361);
+bezierVertex(283, 363, 289, 363, 289, 363);
+bezierVertex(292, 364, 300, 363, 300, 363);
+bezierVertex(306, 361, 311, 358, 311, 358);
+bezierVertex(316, 355, 322, 358, 322, 358);
+bezierVertex(324, 361, 318, 365, 318, 365);
+bezierVertex(315, 367, 315, 367, 315, 367);
+bezierVertex(321, 372, 313, 379, 313, 379);
+bezierVertex(314, 377, 314, 377, 315, 378);
+bezierVertex(314, 387, 299, 390, 299, 390);
+bezierVertex(296, 395, 281, 398, 281, 398);
+bezierVertex(269, 395, 269, 395, 267, 394);
+bezierVertex(259, 394, 259, 394, 255, 394);
+bezierVertex(253, 392, 248, 389, 248, 389);
+bezierVertex(246, 386, 243, 386, 243, 386);
+bezierVertex(240, 386, 235, 390, 235, 390);
+bezierVertex(236, 386, 231, 381, 231, 381);
+bezierVertex(228, 376, 221, 369, 221, 369);
+bezierVertex(220, 366, 217, 364, 217, 364);
+endShape();
+
+beginShape();
+vertex(286, 378);
+bezierVertex(286, 378, 298, 379, 316, 367);
+endShape();
+
+beginShape();
+vertex(289, 387);
+bezierVertex(304, 385, 314, 377, 314, 377);
+endShape();
+
+beginShape();
+vertex(283, 391);
+bezierVertex(297, 392, 300, 390, 300, 390);
+endShape();
+
+beginShape();
+vertex(278, 393);
+bezierVertex(283, 395, 287, 396, 287, 396);
+endShape();
+
+//ear
+noStroke();
+fill(255, 245, 214);
+beginShape();
+vertex(162, 153);
+bezierVertex(162, 153, 163, 156, 165, 154);
+bezierVertex(165, 154, 168, 151, 173, 146);
+bezierVertex(173, 146, 166, 140, 158, 144);
+bezierVertex(158, 144, 160, 149, 162, 154);
+endShape();
+
+beginShape();
+vertex(171, 147);
+bezierVertex(171, 147, 162, 150, 158, 141);
+bezierVertex(158, 141, 152, 134, 150, 125);
+bezierVertex(150, 125, 150, 112, 152, 109);
+bezierVertex(152, 109, 160, 101, 165, 102);
+bezierVertex(165, 102, 169, 104, 175, 109);
+bezierVertex(175, 109, 175, 115, 175, 118);
+bezierVertex(175, 118, 173, 117, 171, 114);
+bezierVertex(171, 114, 173, 122, 177, 125);
+bezierVertex(177, 125, 176, 135, 175, 143);
+bezierVertex(175, 143, 174, 145, 171, 146);
+endShape();
+
+fill(252, 218, 192);
+beginShape();
+vertex(171, 146);
+bezierVertex(171, 146, 172, 137, 174, 133);
+bezierVertex(174, 133, 176, 128, 171, 122);
+bezierVertex(171, 122, 171, 116, 174, 109);
+bezierVertex(174, 109, 176, 117, 172, 122);
+bezierVertex(172, 122, 177, 123, 177, 130);
+bezierVertex(177, 130, 175, 135, 175, 141);
+bezierVertex(175, 141, 176, 145, 170, 147);
+endShape();
+
+fill(244, 190, 168);
+beginShape();
+vertex(156, 125);
+bezierVertex(156, 125, 157, 113, 163, 115);
+bezierVertex(163, 115, 170, 116, 171, 118);
+bezierVertex(171, 118, 161, 119, 160, 125);
+bezierVertex(160, 125, 163, 127, 163, 132);
+bezierVertex(163, 132, 163, 136, 171, 134);
+bezierVertex(171, 134, 171, 127, 172, 119);
+bezierVertex(172, 119, 172, 112, 168, 109);
+bezierVertex(168, 109, 164, 108, 159, 111);
+bezierVertex(159, 111, 153, 114, 156, 124);
+endShape();
+
+fill(223, 136, 123);
+beginShape();
+vertex(169, 116);
+bezierVertex(169, 116, 160, 112, 163, 110);
+bezierVertex(163, 110, 165, 107, 170, 112);
+bezierVertex(170, 112, 175, 119, 171, 123);
+bezierVertex(171, 123, 166, 123, 168, 115);
+endShape();
+
+noFill();
+stroke(48);
+beginShape();
+vertex(154, 119);
+bezierVertex(154, 119, 156, 108, 166, 109);
+bezierVertex(166, 109, 169, 109, 172, 113);
+bezierVertex(172, 113, 173, 126, 171, 132);
+bezierVertex(171, 132, 171, 134, 165, 134);
+endShape();
+
+beginShape();
+vertex(172, 118);
+bezierVertex(172, 118, 163, 118, 160, 125);
+endShape();
+
+beginShape();
+vertex(172, 122);
+bezierVertex(172, 122, 170, 122, 172, 125);
+bezierVertex(172, 125, 169, 129, 171, 132);
+endShape();
+
+noFill();
+stroke(48);
+beginShape();
+vertex(171, 147);
+bezierVertex(171, 147, 162, 150, 158, 141);
+bezierVertex(158, 141, 152, 134, 150, 125);
+bezierVertex(150, 125, 150, 112, 152, 109);
+bezierVertex(152, 109, 160, 101, 165, 102);
+bezierVertex(165, 102, 169, 104, 175, 109);
+bezierVertex(175, 109, 175, 115, 175, 118);
+bezierVertex(175, 118, 173, 117, 171, 114);
+endShape();
+
+//remaining details on shirt
+beginShape();
+vertex(144, 213);
+bezierVertex(144, 213, 162, 238, 162, 259);
+bezierVertex(162, 259, 171, 249, 177, 242);
+bezierVertex(177, 243, 184, 248, 188, 250);
+bezierVertex(188, 250, 183, 239, 184, 234);
+bezierVertex(184, 234, 183, 230, 179, 223);
+endShape();
+
+beginShape();
+vertex(183, 262);
+bezierVertex(183, 262, 180, 257, 177, 242);
+endShape();
+
+beginShape();
+vertex(193, 237);
+bezierVertex(193, 237, 200, 247, 199, 255);
+bezierVertex(199, 255, 195, 251, 195, 251);
+bezierVertex(195, 251, 199, 255, 202, 264);
+bezierVertex(202, 264, 205, 271, 210, 281);
+endShape();
+
+//mini yellow stars scattered :D - manually drawing them just because XD
+fill(255, 225, 48);
+noStroke();
+beginShape();
+vertex(22, 120);
+bezierVertex(22, 120, 20, 118, 18, 122);
+bezierVertex(18, 122, 19, 126, 23, 123);
+bezierVertex(23, 123, 24, 119, 20, 119);
+endShape();
+
+beginShape();
+vertex(40, 61);
+bezierVertex(40, 61, 41, 66, 43, 62);
+bezierVertex(43, 62, 43, 59, 40, 61);
+endShape();
+
+beginShape();
+vertex(65, 49);
+bezierVertex(65, 49, 69, 54, 71, 48);
+bezierVertex(71, 48, 70, 42, 66, 49);
+endShape();
+
+beginShape();
+vertex(117, 60);
+bezierVertex(117, 60, 119, 66, 122, 60);
+bezierVertex(122, 60, 120, 55, 117, 61);
+endShape();
+
+beginShape();
+vertex(132, 3);
+bezierVertex(132, 3, 136, 7, 136, 2);
+bezierVertex(136, 2, 133, 1, 132, 5);
+endShape();
+
+beginShape();
+vertex(129, 45);
+bezierVertex(129, 45, 128, 41, 124, 45);
+bezierVertex(124, 45, 126, 51, 130, 44);
+endShape();
+
+beginShape();
+vertex(145, 29);
+bezierVertex(145, 29, 148, 34, 150, 30);
+bezierVertex(150, 30, 148, 24, 145, 30);
+endShape();
+
+beginShape();
+vertex(179, 58);
+bezierVertex(179, 58, 181, 62, 184, 58);
+bezierVertex(184, 58, 182, 54, 178, 58);
+endShape();
+
+beginShape();
+vertex(197, 74);
+bezierVertex(197, 74, 200, 78, 201, 74);
+bezierVertex(201, 74, 199, 69, 196, 75);
+endShape();
+
+beginShape();
+vertex(195, 82);
+bezierVertex(195, 82, 198, 87, 200, 82);
+bezierVertex(200, 82, 198, 77, 195, 84);
+endShape();
+
+beginShape();
+vertex(209, 80);
+bezierVertex(209, 80, 214, 86, 213, 79);
+bezierVertex(213, 79, 210, 75, 210, 81);
+endShape();
+
+beginShape();
+vertex(214, 71);
+bezierVertex(214, 71, 217, 75, 221, 70);
+bezierVertex(221, 70, 217, 66, 215, 71);
+endShape();
+
+beginShape();
+vertex(188, 1);
+bezierVertex(188, 2, 192, 5, 194, 2);
+bezierVertex(194, 2, 191, 1, 187, 1);
+endShape();
+
+beginShape();
+vertex(264, 27);
+bezierVertex(264, 27, 268, 34, 269, 27);
+bezierVertex(269, 27, 267, 23, 264, 27);
+endShape();
+
+beginShape();
+vertex(327, 25);
+bezierVertex(327, 25, 330, 34, 333, 24);
+bezierVertex(333, 24, 329, 20, 328, 25);
+endShape();
+
+beginShape();
+vertex(297, 52);
+bezierVertex(297, 52, 300, 56, 302, 52);
+bezierVertex(302, 52, 299, 48, 297, 53);
+endShape();
+
+beginShape();
+vertex(280, 76);
+bezierVertex(280, 76, 283, 81, 285, 76);
+bezierVertex(285, 76, 282, 71, 280, 77);
+endShape();
+
+beginShape();
+vertex(313, 123);
+bezierVertex(313, 123, 318, 127, 318, 120);
+bezierVertex(318, 120, 312, 118, 314, 124);
+endShape();
+
+beginShape();
+vertex(274, 181);
+bezierVertex(274, 181, 276, 186, 280, 182);
+bezierVertex(280, 182, 278, 178, 273, 181);
+endShape();
+
+beginShape();
+vertex(264, 222);
+bezierVertex(264, 222, 267, 226, 268, 222);
+bezierVertex(268, 222, 267, 217, 263, 223);
+endShape();
+
+beginShape();
+vertex(317, 150);
+bezierVertex(317, 150, 321, 153, 323, 146);
+bezierVertex(323, 146, 320, 144, 318, 150);
+endShape();
+
+beginShape();
+vertex(340, 158);
+bezierVertex(340, 158, 343, 163, 345, 158);
+bezierVertex(345, 158, 341, 152, 341, 159);
+endShape();
+
+//sparkly star o.O
+rect(304, 175, 0, 0.001, -15);
+
+//extra hair chunks floating there
+fill(92, 161, 195);
+beginShape();
+vertex(117, 25);
+bezierVertex(117, 25, 110, 33, 105, 38);
+bezierVertex(105, 38, 104, 42, 110, 39);
+bezierVertex(110, 39, 112, 36, 120, 34);
+bezierVertex(120, 34, 118, 33, 113, 34);
+bezierVertex(113, 34, 119, 29, 120, 27);
+bezierVertex(120, 27, 120, 24, 116, 26);
+endShape();
+
+fill(63, 146, 192);
+beginShape();
+vertex(125, 29);
+bezierVertex(125, 29, 128, 31, 128, 34);
+bezierVertex(128, 34, 132, 39, 131, 33);
+bezierVertex(131, 33, 131, 28, 135, 30);
+bezierVertex(135, 30, 141, 31, 136, 27);
+bezierVertex(136, 27, 135, 24, 131, 26);
+bezierVertex(131, 26, 125, 27, 124, 30);
+endShape();
+
+//big white star
+noStroke();
+fill(255, 255, 255);
+beginShape();
+vertex(281, 266);
+bezierVertex(281, 266, 292, 252, 305, 240);
+bezierVertex(305, 240, 312, 259, 315, 271);
+bezierVertex(315, 271, 330, 276, 343, 286);
+bezierVertex(343, 286, 329, 298, 318, 305);
+bezierVertex(318, 305, 316, 319, 315, 332);
+bezierVertex(315, 332, 300, 322, 288, 314);
+bezierVertex(288, 314, 276, 317, 268, 319);
+bezierVertex(268, 319, 267, 303, 267, 291);
+bezierVertex(267, 291, 257, 282, 251, 270);
+bezierVertex(251, 270, 270, 264, 281, 266);
+endShape();
+
+//get the entire image Xx
+var entireImage = get();
+//}
+
+//draw function {
+draw = function() {
+    background(255, 242, 242);
+    
+    //draw entire image
+    image(entireImage, 0, 0);
+    
+    //draw logo
+    draw_logo(375, 390, 250, 15);
+    
+    //removes the logo if up arrow key is pressed for thumbnail purposes
+    if (keyCode === 38) {
+        
+        //draw the entire image
+        image(entireImage, 0, 0);
+    }
+
+};
+
+
+//restart button
+random();
+
+//dif cursor ig
+cursor("crosshair");
+
+//allows you to save the image
+enableContextMenu();
+//}
+
+//3719 :O

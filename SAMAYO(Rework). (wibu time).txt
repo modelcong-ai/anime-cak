@@ -1,0 +1,191 @@
+//I am new and this is all I know how to do
+//I am Vietnamese but
+//I am a programmer                      //email:modelcong@gmail.com
+           Kemonokko tsuushin the animation 1                             //roblox:LUNAR_Zone1
+
+// Samayō (さまよう) - drift / wander
+// Inspired by Kimi No Na Wa (Your Name)
+
+var xPos = 200;
+var yPos = -5;
+
+// Bird variables
+var xPos1 = 115, yPos1 = 275;
+var xPos2 = 111, yPos2 = 278;
+var xPos3 = 113, yPos3 = 280;
+var xPos4 = 117, yPos4 = 277;
+
+// ---- Particles for shooting star trail
+var particles = [];
+
+// create a particle
+var makeParticle = function(x, y) {
+    return {
+        x: x,
+        y: y,
+        vx: random(-0.5, 0.5),
+        vy: random(-0.5, 0.5),
+        life: random(40, 80),
+        size: random(1, 3)
+    };
+};
+
+// update + draw particles
+var updateParticles = function() {
+    noStroke();
+    for (var i = particles.length - 1; i >= 0; i--) {
+        var p = particles[i];
+        fill(255, 255, 255, p.life * 3); // fade out
+        ellipse(p.x, p.y, p.size, p.size);
+        p.x += p.vx;
+        p.y += p.vy;
+        p.life--;
+        if (p.life <= 0) {
+            particles.splice(i, 1);
+        }
+    }
+};
+
+// ---- draw multi-layer glow
+var drawGlow = function(x, y) {
+    noStroke();
+    // Outer pink-purple glow
+    for (var r = 60; r > 40; r -= 5) {
+        fill(200, 100, 200, map(r, 40, 60, 30, 5));
+        ellipse(x, y, r, r);
+    }
+    // Middle yellow glow
+    for (var r = 40; r > 20; r -= 4) {
+        fill(255, 240, 180, map(r, 20, 40, 40, 8));
+        ellipse(x, y, r, r);
+    }
+    // Inner white glow
+    for (var r = 20; r > 5; r -= 3) {
+        fill(255, 255, 255, map(r, 5, 20, 80, 20));
+        ellipse(x, y, r, r);
+    }
+};
+
+draw = function() {
+    background(245, 174, 159);
+    noStroke();
+    
+    // Sky Gradient (chia thành từng lớp rect)
+    fill(191, 15, 153, 20);
+    for (var i = 390; i > 310; i -= 10) {
+        rect(0, 0, 400, i);
+    }
+    fill(102, 107, 227, 20);
+    for (var i = 300; i > 230; i -= 10) {
+        rect(0, 0, 400, i);
+    }
+    fill(0, 3, 79, 8);
+    for (var i = 220; i > 180; i -= 10) {
+        rect(0, 0, 400, i);
+    }
+    fill(0, 3, 79, 15);
+    for (var i = 170; i > 60; i -= 10) {
+        rect(0, 0, 400, i);
+    }
+
+    // Shooting Star
+    drawGlow(xPos, yPos); // glow halo
+    fill(255, 255, 255);
+    ellipse(xPos, yPos, 5, 5);
+    ellipse(xPos, yPos, 1, 10);
+    fill(255, 255, 255, 100);
+    ellipse(xPos, yPos, 30, 1);
+    fill(255, 255, 255, 20);
+    triangle(xPos, yPos, 195, 0, 205, 0);
+    
+    // add particles at star head
+    if (frameCount % 2 === 0) {
+        particles.push(makeParticle(xPos, yPos));
+    }
+    updateParticles();
+
+    yPos += 1.5;
+
+    // Background Stars
+    strokeWeight(1);
+    stroke(255, 255, 255);
+    point(100, 100); point(291, 125); point(94, 110);
+    point(9, 67); point(363, 100); point(157, 180);
+    point(45, 124); point(329, 148); point(68, 26);
+    point(45, 43); point(82, 37); point(62, 24);
+    point(212, 43); point(378, 26); point(367, 45);
+    point(370, 15); point(311, 5); point(301, 88);
+    strokeWeight(2);
+    point(115, 95); point(216, 124); point(85, 112);
+    point(203, 108); point(376, 239); point(239, 180);
+    point(67, 176); point(308, 14); point(145, 1);
+    point(41, 10); point(160, 11); point(5, 151);
+    point(225, 43); point(267, 71); point(349, 205);
+    point(199, 99); point(114, 144); point(230, 188);
+    strokeWeight(3);
+    point(100, 100); point(270, 134); point(78, 233);
+    point(19, 62); point(351, 129); point(91, 218);
+    point(138, 124); point(341, 165); point(79, 26);
+    point(59, 109); point(74, 44); point(87, 24);
+    point(225, 15); point(334, 59); point(323, 56);
+    point(306, 114); point(300, 130); point(323, 110);
+    strokeWeight(4);
+    point(144, 110); point(337, 192); point(33, 150);
+    point(304, 26);
+    strokeWeight(5);
+    point(161, 60); point(306, 208);
+    strokeWeight(6);
+    point(379, 122); point(83, 0);
+    
+    // Moon
+    fill(255, 255, 255);
+    noStroke();
+    ellipse(298, 300, 30, 30);
+    fill(189, 93, 168);
+    ellipse(295, 298, 25, 25);
+
+    // Telephone Pole
+    fill(41, 2, 89);
+    quad(365, 402, 334, 277, 339, 275, 378, 400);
+    quad(336, 309, 332, 294, 343, 297, 344, 312);
+    quad(318, 275, 318, 270, 365, 289, 365, 292);
+    quad(315, 283, 314, 278, 365, 296, 365, 299);
+    ellipse(276, 333, 3, 7); ellipse(271, 336, 3, 7);
+    ellipse(258, 357, 2, 6); ellipse(207, 374, 1, 4);
+    strokeWeight(3); stroke(41, 2, 89);
+    point(324, 277); point(322, 286); point(358, 289); point(358, 297);
+    strokeWeight(1);
+    line(357, 290, 399, 332);
+    line(357, 296, 399, 347);
+    noFill();
+    arc(-10, 225, 697, 387, 16, 145);
+    arc(4, 227, 697, 387, 16, 145);
+    arc(25, 227, 697, 387, 19, 145);
+    arc(70, 145, 697, 387, 14, 43);
+    arc(82, 150, 697, 387, 14, 43);
+    arc(101, 154, 697, 387, 14, 43);
+
+    // Bird
+    xPos1 += 0.3; yPos1 -= 0.3;
+    xPos2 += 0.3; yPos2 -= 0.3;
+    xPos3 += 0.3; yPos3 -= 0.3;
+    xPos4 += 0.3; yPos4 -= 0.3;
+    fill(41, 2, 89);
+    quad(xPos1, yPos1, xPos2, yPos2, xPos3, yPos3, xPos4, yPos4);
+    quad(xPos1 - 7, yPos1 + 6, xPos2, yPos2 + 5, xPos3 - 1, yPos3 - 4, xPos4 + 1, yPos4 - 2);
+    quad(xPos1 - 4, yPos1 - 3, xPos2 - 10, yPos2 - 7, xPos3, yPos3 - 3, xPos4 - 1, yPos4);
+    quad(xPos1 + 13, yPos1 - 1, xPos2 + 10, yPos2 - 5, xPos3, yPos3, xPos4, yPos4);
+
+    // Text
+    textAlign(CENTER, BASELINE);
+    fill(255, 255, 255);
+    textSize(50); text("さまよう", 200, 209);
+    textSize(12); text("A   C  O  M  E  T   P  A  S  S  E  S  ,", 200, 232);
+    if (yPos > 247) {
+        textSize(7);
+        text("D R I F T I N G  A L O N E  I N  T H E  S O L A R  W I N D .", 200, 251);
+        if (yPos > 386) {
+            text("[ D a n g  T h a n h  C o n g  R E W O R K ]", 200, 387);
+        }
+    }
+};

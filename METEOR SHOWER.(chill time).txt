@@ -1,0 +1,137 @@
+//I am new and this is all I know how to do
+//I am Vietnamese but
+//I am a programmer                      //email:modelcong@gmail.com
+                                        //robloxstudio:LUNAR_Zone1
+
+
+var meteors = [];
+var stars = [];
+var clouds = [];
+
+// star fall
+for (var i=0; i<120; i++) {
+    stars.push({
+        x: random(width),
+        y: random(height),
+        r: random(1,3),
+        twinkle: random(50,255)
+    });
+}
+
+// star
+for (var i=0; i<50; i++) {
+    meteors.push({
+        x: random(width),
+        y: random(-height,0),
+        vx: random(4,8),
+        vy: random(6,10),
+        len: random(40,80),
+        col: color(random(180,255), random(180,255), random(200,255))
+    });
+}
+
+// cloud
+for (var i=0; i<6; i++) {
+    clouds.push({
+        x: random(width),
+        y: random(height/4, height/2),
+        speed: random(0.2,0.6),
+        size: random(80,150)
+    });
+}
+
+// --- night sky background
+var drawSky = function() {
+    for (var y=0; y<height; y++) {
+        var t = y/height;
+        var c = lerpColor(color(43, 18, 230), color(189, 91, 222), t);
+        stroke(c);
+        line(0,y,width,y);
+    }
+};
+
+// --- draw star
+var drawStars = function() {
+    noStroke();
+    for (var i=0; i<stars.length; i++) {
+        var s = stars[i];
+        fill(255, s.twinkle);
+        ellipse(s.x, s.y, s.r, s.r);
+        s.twinkle += random(-20,20);
+        s.twinkle = constrain(s.twinkle, 50, 255);
+    }
+};
+
+// --- draw moon
+var drawMoon = function() {
+    noStroke();
+// outer halo
+    for (var r=200; r>80; r-=20) {
+        fill(255,255,210,map(r,80,200,40,5));
+        ellipse(width-120,100,r,r);
+    }
+// bright core
+    fill(255,255,220,240);
+    ellipse(width-120,100,80,80);
+    fill(240,240,200,230);
+    ellipse(width-120,100,60,60);
+};
+
+// --- Draw a shooting star ---
+var drawMeteor = function(m) {
+    strokeWeight(2);
+    stroke(m.col);
+    line(m.x, m.y, m.x - m.len, m.y - m.len);
+    noStroke();
+    fill(m.col,150);
+    ellipse(m.x, m.y, 8,8);
+    fill(m.col,80);
+    ellipse(m.x, m.y, 16,16);
+    fill(m.col,40);
+    ellipse(m.x, m.y, 28,28);
+};
+
+// --- Drawing clouds ---
+var drawCloud = function(c) {
+    noStroke();
+    fill(255, 255, 255, 70);
+    ellipse(c.x, c.y, c.size, c.size*0.6);
+    ellipse(c.x+30, c.y+10, c.size*0.8, c.size*0.5);
+    ellipse(c.x-30, c.y+5, c.size*0.7, c.size*0.4);
+};
+
+// --- Animation ---
+draw = function() {
+    drawSky();
+    drawStars();
+    drawMoon();// The moon is drawn before the clouds but behind the stars
+
+// Meteor
+    for (var i=0; i<meteors.length; i++) {
+        var m = meteors[i];
+        drawMeteor(m);
+        m.x += m.vx;
+        m.y += m.vy;
+        if (m.x > width+100 || m.y > height+100) {
+            m.x = random(-width,0);
+            m.y = random(-height,0);
+            m.vx = random(4,8);
+            m.vy = random(6,10);
+            m.len = random(40,80);
+            m.col = color(random(180,255), random(180,255), random(200,255));
+        }
+    }
+
+// Clouds pass by
+    for (var j=0; j<clouds.length; j++) {
+        var c = clouds[j];
+        drawCloud(c);
+        c.x += c.speed;
+        if (c.x > width+200) {
+            c.x = -200;
+            c.y = random(height/4, height/2);
+        }
+    }
+};
+
+
